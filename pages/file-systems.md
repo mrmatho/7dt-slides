@@ -37,13 +37,32 @@ mindmap
   root((FileTypes))
     Images
       .jpg
+      .bmp
+      .gif
+      .3fr
     Videos
       .mp4
     Documents
       .pdf
+      .doc/.docx
+      .wpd
     Audio
       .mp3
+      .wav
+      .heic
+    Webpages
+      .htm/.html
+    Spreadsheet
+      .xlsx
+    Applications
+      .msi
+      .exe
+    Text
+      .txt
+    System
+      .sys
 ```
+
 ---
 layout: center
 hideInToc: true

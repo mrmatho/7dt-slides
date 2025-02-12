@@ -22,7 +22,13 @@ mdc: true
 Year 7 2025
 
 ---
+src: ./pages/heathos.md
+hide: false
+---
+
+---
 src: ./pages/file-systems.md
 hide: false
 ---
 
+---
