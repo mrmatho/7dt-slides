@@ -11,7 +11,7 @@ layout: statement
 
 
 ---
-transition: slide-down
+transition: fade
 layout: statement
 hideInToc: true
 ---
@@ -21,3 +21,15 @@ hideInToc: true
 ## *Routine*
 
 ## How do we start each class?
+
+---
+transition: fade
+layout: statement
+hideInToc: true
+---
+
+# Heathos
+
+## *Routine*
+
+## How do we end each class?

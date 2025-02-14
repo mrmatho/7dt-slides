@@ -26,6 +26,35 @@ hideInToc: true
 # What is a filetype?
 
 ---
+layout: center
+hideInToc: true
+---
+
+# Which is the most helpful file name?
+
+Indicate with your fingers which you think would be the best file name.
+
+1. `file1.docx`
+2. `english stuff.docx`
+3. <span v-mark.circle.green>`assignment 1 - Coraline.docx`</span>
+4. `first assignment for english studying Coraline where the parents end up with buttons for eyes.docx`
+
+---
+layout: center
+hideInToc: true
+---
+
+# Which would be the best organised folders?
+
+Indicate with your fingers which you think would be an example of the best way to have your OneDrive folder organised.
+
+1. `Stuff/`
+2. <span v-mark.circle.green>`2025/English/Assignments/`</span>
+3. <span v-mark.circle.green>`School/English/`</span>
+4. `School/English/2025/Term 1/Assignments/Assignment 1/`
+
+
+---
 layout: default
 hideInToc: true
 ---
@@ -37,30 +66,12 @@ mindmap
   root((FileTypes))
     Images
       .jpg
-      .bmp
-      .gif
-      .3fr
     Videos
       .mp4
     Documents
       .pdf
-      .doc/.docx
-      .wpd
     Audio
       .mp3
-      .wav
-      .heic
-    Webpages
-      .htm/.html
-    Spreadsheet
-      .xlsx
-    Applications
-      .msi
-      .exe
-    Text
-      .txt
-    System
-      .sys
 ```
 
 ---
