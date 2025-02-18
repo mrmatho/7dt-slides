@@ -20,6 +20,7 @@ mdc: true
 # Welcome to Digital Technology
 
 Year 7 2025
+<Toc minDepth=1 maxDepth=1 columns=2 />
 
 ---
 src: ./pages/heathos.md
@@ -28,6 +29,11 @@ hide: false
 
 ---
 src: ./pages/file-systems.md
+hide: false
+---
+
+---
+src: ./pages/components.md
 hide: false
 ---
 

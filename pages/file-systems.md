@@ -66,12 +66,27 @@ mindmap
   root((FileTypes))
     Images
       .jpg
+      .gif
+      .tiff
     Videos
       .mp4
     Documents
       .pdf
+      .doc
     Audio
       .mp3
+      .wav
+      .ogg
+      .flac
+      .wma
+    Compression
+      .zip
+      .rar
+      .jar
+      .7z
+    Executables/Apps
+      .exe
+      .app Mac
 ```
 
 ---
