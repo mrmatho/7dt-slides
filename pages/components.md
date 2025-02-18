@@ -4,7 +4,27 @@ transition: fade
 background: https://cover.sli.dev
 class: text-center
 ---
+
 # Components of a Computer
+
+---
+layout: quote
+class: text-left
+---
+
+# Do Now
+
+**Case Study:**
+
+You have received an email from a person you don't know. The email has a file attached with the file name **"your-stuff.exe"**. The email says this is important information from the school and you should download it immediately.
+
+1. What type of file is your-stuff.exe likely to be?
+2. What should you do with the email and the file?
+
+*Answer in your book (you don't have to write the question this time)*
+
+***5 mins***
+
 ---
 layout: li
 title: LI & SC
