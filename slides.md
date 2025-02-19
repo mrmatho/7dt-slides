@@ -8,6 +8,7 @@ background: https://cover.sli.dev
 title: Year 7 Digital Technology
 # apply unocss classes to the current slide
 class: text-center
+selectable: true
 # https://sli.dev/features/drawing
 drawings:
   persist: false
@@ -37,4 +38,7 @@ src: ./pages/components.md
 hide: false
 ---
 
+---
+src: ./pages/servers.md
+hide: false
 ---

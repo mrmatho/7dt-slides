@@ -10,6 +10,7 @@ class: text-center
 ---
 layout: quote
 class: text-left
+hideInToc: true
 ---
 
 # Do Now
