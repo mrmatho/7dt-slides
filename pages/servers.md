@@ -87,6 +87,21 @@ hideInToc: true
 From what you have just heard - write down what you think a server is. 
 
 ---
+layout: quote
+transition: fade
+hideInToc: true
+---
+
+# Research Activity
+
+In a moment you will be completing a research activity, using the Internet to search. 
+
+Some handy reminders for research:
+
+- Try to use more than one source.
+- Try to use your own words to summarise what you read, rather than copying word for word
+- Check that the information you find actually answers the questions
+---
 layout: two-cols-header
 transition: fade
 hideInToc: true
@@ -101,6 +116,7 @@ You will be working in <span v-mark>randomly selected</span> small groups to res
 I will put you into groups and give you a type of server to research.
 
 ::left::
+
 - Web Server
 - File Server
 - Print Server
@@ -109,6 +125,7 @@ I will put you into groups and give you a type of server to research.
 - Game Server
 
 ::right::
+
 You need to investigate the following questions:
 1. What does this type of server do?
 2. What are some examples of when you might use this type of server?
