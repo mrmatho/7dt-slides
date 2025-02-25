@@ -3,6 +3,7 @@ layout: cover
 transition: fade
 background: https://cover.sli.dev
 class: text-center
+hideInToc: false
 ---
 
 # Servers

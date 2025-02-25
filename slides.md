@@ -6,6 +6,11 @@ theme: default
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Year 7 Digital Technology
+defaults:
+  layout: center
+  hideInToc: true
+  transition: fade
+
 # apply unocss classes to the current slide
 class: text-center
 selectable: true
@@ -16,11 +21,13 @@ drawings:
 transition: fade
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+layout: cover
 ---
 
 # Welcome to Digital Technology
 
 Year 7 2025
+
 <Toc minDepth=1 maxDepth=1 columns=2 />
 
 ---
@@ -41,4 +48,11 @@ hide: false
 ---
 src: ./pages/servers.md
 hide: false
+---
+
+---
+src: ./pages/networks.md
+hide: false
+---
+
 ---

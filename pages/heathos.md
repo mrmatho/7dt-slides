@@ -1,6 +1,7 @@
 ---
 transition: slide-right
 layout: statement
+hideInToc: false
 ---
 
 # Heathos
