@@ -61,6 +61,9 @@ layout: center
 
 Your home network is likely to include a router but may not include a switch.
 
+<img src="\img\switch.jpg" alt="Switch" width="200px" style="float: left; margin-right: 10px;" />
+<img src="\img\router.webp" alt="Router" width="200px"style="float: left; margin-right: 10px;" />
+<img src="\img\nintendo.jpg" alt="Nintendo switch" width="200px"style="float: left; margin-right: 10px;">
 ---
 layout: center
 ---
@@ -71,6 +74,8 @@ layout: center
 - A wireless network uses radio waves to connect devices together.
 - Wireless networks are more convenient, but wired networks are usually faster and more reliable.
 - Wireless networks are more vulnerable to security threats, so data is usually encrypted.
+
+<img src="\img\wifi.png" alt="Wifi" width="200px" style="float: left; margin-right: 10px;" />
 
 ---
 layout: center
