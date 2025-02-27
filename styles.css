@@ -1,0 +1,17 @@
+
+table td {
+    text-align: left;
+    border: 1px solid #888;
+    font-size: 0.8rem;
+    line-height: 0.7rem;
+}
+
+table th {
+    text-align: center;
+    border: 1px solid #000000;
+    font-size: 0.8rem;
+    background-color: #7fb393;
+    color: black;
+    line-height: 0.7rem;
+    font-weight: bold;
+}
