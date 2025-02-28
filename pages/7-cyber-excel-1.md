@@ -85,7 +85,7 @@ layout: center
 |Item|Cost|Number per year|Total Cost|
 |---|---|---|---|
 |Shoes|$100|1|$100|
-|T-Shirts|$25|5|$100|
+|T-Shirts|$25|5|$125|
 |---|---|---|---|
 | | | **Total**| **$1500** |
 | | | **Weekly**| **$30** |
