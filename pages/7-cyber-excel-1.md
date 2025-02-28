@@ -91,3 +91,10 @@ layout: center
 | | | **Weekly**| **$30** |
 
 **Your task is to create a similar spreadsheet. Choose the items you think you would need to buy in a year and estimate the prices. Let's get cashed up!**
+---
+layout: quote
+---
+
+# Reflect
+
+What can you do now that you couldn't before?
