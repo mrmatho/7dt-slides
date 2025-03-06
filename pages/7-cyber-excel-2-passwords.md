@@ -38,13 +38,10 @@ zoom: 1.5
 - Reduces risk of identity theft
 
 ---
-layout: two-cols-header
+layout: two-cols
 ---
 
 # Strong and Weak Passwords
-
-::left::
-
 ## What increases the strength of a password?
 
 - Length: Longer passwords are harder to crack
@@ -62,17 +59,6 @@ layout: two-cols-header
 - Repeated characters (e.g., "aaaaaa")
 - Personal information (e.g., name, birthdate, pets name, favourite celebrity)
 - Using the same password across multiple accounts
-
----
-layout: center
-zoom: 1.3
----
-# Characteristics of Strong Passwords
-
-- At least 12 characters long
-- Includes uppercase and lowercase letters
-- Contains numbers and special characters
-- Avoids common words and patterns
 
 ---
 layout: center
@@ -97,6 +83,10 @@ zoom: 1.3
 - Generate strong, unique passwords
 - Autofill login forms
 - Examples: LastPass, 1Password, Bitwarden, Built-in browser password managers
+- Risks: 
+    - If someone hacks your password manager, they can access all your passwords
+    - If you forget your password manager password, you lose access to all your passwords
+    - You have to be able to access your password manager whenever you need to login to anything
 
 ---
 layout: center
@@ -131,6 +121,7 @@ layout: center
 - **Key systems like email and banking are the most important to protect:**
     - Password resets are usually sent to your email
     - Bank accounts have access to your $
+
 ---
 layout: center
 zoom: 1.6
