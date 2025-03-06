@@ -1,11 +1,15 @@
 ---
 title: Cybersafety - Passwords and 2FA
-layout: center
+layout: cover
+class: text-center
+background: /img/padlock2FA.webp
 hideInToc: false
 transition: slide-left
 ---
 
-# Passwords and 2FA
+# Password Management 
+
+Passwords and Two Factor Authentication (2FA)
 
 ---
 layout: li
@@ -31,11 +35,10 @@ zoom: 1.5
 
 # Importance of Strong Passwords
 
-- Simple passwords can be easily guessed (by humans and computers)
-- The more complex the password, the harder it is to crack
+- Simple passwords are easy to guess
+- Complex passwords are harder to crack - especially by <span v-mark.circle>brute force</span> attacks
 - Protects personal information
-- Prevents unauthorized access
-- Reduces risk of identity theft
+- Reduces identity theft risk
 
 ---
 layout: two-cols

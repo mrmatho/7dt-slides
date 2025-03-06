@@ -28,7 +28,7 @@ layout: cover
 
 Year 7 2025
 
-<Toc minDepth=1 maxDepth=1 columns=2 />
+<Toc minDepth=1 maxDepth=1 columns=3 />
 
 ---
 src: ./pages/heathos.md
