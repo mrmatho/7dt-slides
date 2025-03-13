@@ -2,7 +2,7 @@
 title: Cybersafety - Scams and Viruses
 layout: cover
 class: text-center
-background: /img/padlock2FA.webp
+background: /img/virus.webp
 hideInToc: false
 transition: slide-left
 ---
