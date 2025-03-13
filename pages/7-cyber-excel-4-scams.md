@@ -4,7 +4,7 @@ layout: cover
 class: text-center
 background: /img/virus.webp
 hideInToc: false
-transition: slide-left
+transition: fade
 ---
 
 # Scams and Viruses
@@ -64,12 +64,16 @@ zoom: 1.2
 
 # Online Scams
 
+<v-clicks>
+
 - Scams are attempts to trick you into giving away your personal information or money
 - Scammers use various methods to deceive people, including:
     - Phishing emails
     - Fake websites
     - Social media scams
 - Scams can lead to identity theft, financial loss, and other serious consequences
+
+</v-clicks>
 
 ---
 layout: center
@@ -95,10 +99,14 @@ zoom: 1.2
 
 # Scams - What to do
 
+<v-clicks>
+
 - Don't click on links or download attachments from unknown sources
 - Check the sender's identity
 - Remember that instant messages from friends can be scams too
 - Report suspicious messages to your email provider or social media platform
+
+</v-clicks>
 
 ---
 layout: center
@@ -115,7 +123,7 @@ zoom: 1.2
 ---
 
 # Viruses
-
+<v-clicks>
 - A virus is a type of malicious software (malware) that can infect your computer or device
 - Viruses can cause various problems, including:
     - Slowing down your computer
@@ -127,19 +135,24 @@ zoom: 1.2
     - Infected software downloads
     - Removable storage devices (e.g., USB drives)
     - Infected websites
+</v-clicks>
 
 ---
-layout: center
+layout: center 
 zoom: 1.3
 ---
 
 # Common Types of Viruses
+
+<v-clicks>
 
 - **Trojan Horse**: Disguised as legitimate software but contains harmful code
 - **Worm**: Self-replicating virus that spreads through networks
 - **Ransomware**: Encrypts files and demands payment for decryption
 - **Spyware**: Secretly monitors user activity and collects personal information
 - **Adware**: Displays unwanted advertisements and can slow down your device
+
+</v-clicks>
 
 ---
 layout: center
