@@ -123,7 +123,9 @@ zoom: 1.2
 ---
 
 # Viruses
+
 <v-clicks>
+
 - A virus is a type of malicious software (malware) that can infect your computer or device
 - Viruses can cause various problems, including:
     - Slowing down your computer
@@ -135,6 +137,7 @@ zoom: 1.2
     - Infected software downloads
     - Removable storage devices (e.g., USB drives)
     - Infected websites
+
 </v-clicks>
 
 ---
