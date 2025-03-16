@@ -78,6 +78,21 @@ display.scroll("Hello, World!")
 
 </v-click>
 ---
+layout: image-right
+image: /img/simulator.png
+---
+
+# The Simulator
+
+The Simulator executes your code and shows you what it would look like on the Micro:bit. 
+
+It lets you do everything you can do on the Micro:bit, but without needing to plug it in, and much quicker. 
+
+We always test on the simulator first, and then run on the Micro:bit once we have a more complete program.
+
+The controls underneath let you simulate button presses, shake the Micro:bit, adjust the temperature, volume and more.
+
+---
 layout: center
 ---
 
@@ -90,9 +105,19 @@ Open the Micro:bit editor at https://python.microbit.org/
     - This line imports the Micro:bit library, which allows us to use the Micro:bit's features in our program.
 - Write code to scroll a message on the Micro:bit display.
     - Remember: You can use the `display.scroll()` function to scroll text on the Micro:bit display.
+    - Don't forget to put the text in quotation marks!
 - Test your code on the Micro:bit simulator on the right hand side
 
-*Note:* The Micro:bit editor suggests code as you type. This is a great way to learn how to use the Micro:bit library and Python syntax (and makes it less likely that you will make a mistake). If you see a suggestion that you like, press the `Enter` key to accept it.
+***Note:*** The Micro:bit editor suggests code as you type. This is a great way to learn how to use the Micro:bit library and Python syntax (and makes it less likely that you will make a mistake). If you see a suggestion that you like, press the `Enter` key to accept it.
 
+---
 
+# Running Code on the Micro:bit
 
+- Once you have written and tested code in the simulator, we can run code on the Micro:bit
+- Because we don't have enough Micro:bits for everyone, we will only use them some of the time
+- To run code on the Micro:bit, plug the USB cable into the Micro:bit and your computer
+- In the Micro:bit editor, click on the `Send to Micro:bit` button
+    - The first time you connect it it will ask to pair with your computer
+    - The Micro:bit will appear as a USB drive on your computer
+- Once it has **flashed** the code it should run automatically
