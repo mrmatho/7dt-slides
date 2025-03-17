@@ -18,7 +18,7 @@ layout: center
 - A small computer that can be programmed to do different things.
 - It has sensors, buttons, and lights that can be used to create fun projects.
 - It can be programmed using a block-based language (MakeCode) or Python
-- We are using Python, which is a text-based programming language.
+- **We are using Python, which is a text-based programming language.**
 
 ---
 layout: two-cols-header
@@ -83,12 +83,12 @@ image: /img/simulator.png
 ---
 
 # The Simulator
-
+<br/>
 The Simulator executes your code and shows you what it would look like on the Micro:bit. 
 
 It lets you do everything you can do on the Micro:bit, but without needing to plug it in, and much quicker. 
 
-We always test on the simulator first, and then run on the Micro:bit once we have a more complete program.
+**We always test on the simulator first**, and then run on the Micro:bit once we have a more complete program.
 
 The controls underneath let you simulate button presses, shake the Micro:bit, adjust the temperature, volume and more.
 
@@ -111,6 +111,8 @@ Open the Micro:bit editor at https://python.microbit.org/
 ***Note:*** The Micro:bit editor suggests code as you type. This is a great way to learn how to use the Micro:bit library and Python syntax (and makes it less likely that you will make a mistake). If you see a suggestion that you like, press the `Enter` key to accept it.
 
 ---
+layout: center
+---
 
 # Running Code on the Micro:bit
 
@@ -121,3 +123,88 @@ Open the Micro:bit editor at https://python.microbit.org/
     - The first time you connect it it will ask to pair with your computer
     - The Micro:bit will appear as a USB drive on your computer
 - Once it has **flashed** the code it should run automatically
+
+---
+layout: fact
+---
+
+# What did you notice?
+<br />
+<v-clicks>
+
+Did your code run as you expected?
+
+What happened after the message scrolled?
+
+What would make this more interesting?
+
+</v-clicks>
+---
+layout: center
+zoom: 1.1
+---
+
+# Infinite Loops
+
+- By default, the Micro:bit will run your code once and then stop.
+- To make it run continuously, we need to use a **loop**.
+- A loop is a way to repeat a block of code multiple times.
+- Python has two main types of loops: `for` loops and `while` loops.
+- We use a `while` loop to run our code **FOREVER!!!** (or until we stop it or the batttery runs out)
+
+```python
+from microbit import *
+
+while True:
+    display.scroll("Hello, Repetitively!")
+```
+
+**NOTE:** The text underneath `while True:` is indented. This tells Python which code belongs to the loop. The indentation is important in Python, and uses 4 spaces. 
+
+*If you need to indent code you use the `Tab` key, and to remove indentation you use `Shift + Tab`.*
+
+---
+layout: center
+zoom: 1.3
+---
+
+# Your Turn
+
+- Use the code below to change your Micro:bit program to scroll a message continuously (You can keep your own message).
+
+```python
+from microbit import *
+
+while True:
+    display.scroll("Go Tiges!")
+```
+
+- **Test it in the simulator first**, then if a Micro:bit is available, run it there.
+
+---
+layout: center
+---
+
+# Showing an image
+
+- The Micro:bit has a built-in LED display that can  show images.
+- You can use the `display.show()` function to display an image on the Micro:bit.
+
+```python
+
+from microbit import *
+
+while True:
+    display.show(Image.HEART)
+```
+
+## Give it a try
+There are a number of other images you can use, including: *`Image.SAD`, `Image.HAPPY`, `Image.SILLY`, `Image.ANGRY`, `Image.CONFUSED`, `Image.YES`, `Image.NO`* - pick one you like and try it out!
+- **Extension**: You can also create your own images using the `Image` class. For example, you can create a windmill image like this:
+```python   
+display.show(Image("00900:99099:00900:00500:09990"))
+```
+0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.
+
+---
+
