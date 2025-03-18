@@ -89,17 +89,38 @@ layout: center
 - Behaviour questions that ask about frequency (e.g. "How often do you...") or likelihood (e.g. "How likely are you to...")
 
 ---
-layout: image-right
-image: /img/speech.webp
+layout: two-cols
 ---
 
 # Today you need to:
 
-1. Find a group. Each group will have <strong style="color:green;">2 or 3 people</strong>.
-2. Choose your topic area
-3. Write 3 questions to identify people's **knowledge** of your topic
-4. Write 3 questions to identify people's **behaviour** about your topic
-5. <span v-mark.highlight.yellow>Have Mr Matheson check your questions</span>
-6. (If you have time) Start putting your questions into a Google Form
+- Find a group. Each group will have <strong style="color:green;">2 or 3 people</strong>.
+- Choose your topic area
+- Write 3 questions to identify people's **knowledge** of your topic
+- Write 3 questions to identify people's **behaviour** about your topic
+- <span v-mark.highlight.yellow>Have Mr Matheson check your questions</span>
+- (If you have time) Start putting your questions into a Google Form
 
+::right::
+
+## Topic ideas:
+
+<br /><br /><br />
+```mermaid
+
+mindmap
+    root((Cyber Security Topics))
+        Privacy
+            Social Media
+            Private Information
+        Scams/Phishing
+            Emails
+            Text Messages
+        Viruses
+            Malware
+            Ransomware
+        Passwords
+            Strong Passwords
+            Password Managers
+```
 ---
