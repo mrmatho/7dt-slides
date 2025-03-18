@@ -33,8 +33,8 @@ layout: center
 - **Individually** you will analyse the results of your survey in Excel and create a graph to demonstrate your findings.
 
 ---
-layout: image-right
-image: /img/speech.webp
+layout: two-cols
+
 ---
 
 # Today you need to:
@@ -46,6 +46,29 @@ image: /img/speech.webp
 - <span v-mark.highlight.yellow>Have Mr Matheson check your questions</span>
 - (If you have time) Start putting your questions into a Google Form
 
+::right::
+
+## Topic ideas:
+
+<br /><br /><br />
+```mermaid
+
+mindmap
+    root((Cyber Security Topics))
+        Privacy
+            Social Media
+            Private Information
+        Scams/Phishing
+            Emails
+            Text Messages
+        Viruses
+            Malware
+            Ransomware
+        Passwords
+            Strong Passwords
+            Password Managers
+```
+
 ---
 layout: center
 ---
@@ -55,8 +78,12 @@ layout: center
 - Questions should be **clear** and **easy to understand**
 - Questions should be **specific**
 - Questions should be **relevant** to your topic
+- It is a good idea to include at least once scenario-based question e.g. "If you received a text message from your bank asking you to click a link, what would you do?"
+
+<br />
 
 # What makes a question easy to analyse?
+
 - Questions that use multiple choice answers, yes/no answers, or rating scales (1-5) are easier to analyse than textbox questions
 - Knowledge questions with one correct answer
 - Behaviour questions that ask about frequency (e.g. "How often do you...") or likelihood (e.g. "How likely are you to...")
