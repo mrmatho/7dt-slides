@@ -198,13 +198,25 @@ while True:
     display.show(Image.HEART)
 ```
 
+---
+
 ## Give it a try
+
+```python
+
+from microbit import *
+
+while True:
+    display.show(Image.HEART)
+```
+
 There are a number of other images you can use, including: *`Image.SAD`, `Image.HAPPY`, `Image.SILLY`, `Image.ANGRY`, `Image.CONFUSED`, `Image.YES`, `Image.NO`* - pick one you like and try it out!
 - **Extension**: You can also create your own images using the `Image` class. For example, you can create a windmill image like this:
 ```python   
 display.show(Image("00900:99099:00900:00500:09990"))
 ```
-0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.
+
+*0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.*
 
 ---
 
