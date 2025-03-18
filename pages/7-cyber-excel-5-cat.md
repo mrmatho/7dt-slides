@@ -2,7 +2,7 @@
 title: CAT - Survey Quesitons
 layout: cover
 class: text-center
-background: /img/virus.webp
+background: /img/speech.webp
 hideInToc: false
 transition: fade
 ---
@@ -31,3 +31,48 @@ layout: center
 - You will write 3 questions to identfy people's **behaviour** about your topic
 - You will put your survey questions into a Google Form, and send it to your classmates as well as friends and family
 - **Individually** you will analyse the results of your survey in Excel and create a graph to demonstrate your findings.
+
+---
+layout: image-right
+image: /img/speech.webp
+---
+
+# Today you need to:
+
+- Find a group. Each group will have <strong style="color:green;">2 or 3 people</strong>.
+- Choose your topic area
+- Write 3 questions to identify people's **knowledge** of your topic
+- Write 3 questions to identify people's **behaviour** about your topic
+- <span v-mark.highlight.yellow>Have Mr Matheson check your questions</span>
+- (If you have time) Start putting your questions into a Google Form
+
+---
+layout: center
+---
+
+# What makes a good survey question?
+
+- Questions should be **clear** and **easy to understand**
+- Questions should be **specific**
+- Questions should be **relevant** to your topic
+
+# What makes a question easy to analyse?
+- Questions that use multiple choice answers, yes/no answers, or rating scales (1-5) are easier to analyse than textbox questions
+- Knowledge questions with one correct answer
+- Behaviour questions that ask about frequency (e.g. "How often do you...") or likelihood (e.g. "How likely are you to...")
+
+---
+layout: image-right
+image: /img/speech.webp
+---
+
+# Today you need to:
+
+1. Find a group. Each group will have <strong style="color:green;">2 or 3 people</strong>.
+2. Choose your topic area
+3. Write 3 questions to identify people's **knowledge** of your topic
+4. Write 3 questions to identify people's **behaviour** about your topic
+5. <span v-mark.highlight.yellow>Have Mr Matheson check your questions</span>
+6. (If you have time) Start putting your questions into a Google Form
+
+---
