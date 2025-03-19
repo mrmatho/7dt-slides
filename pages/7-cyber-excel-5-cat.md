@@ -124,3 +124,24 @@ mindmap
             Password Managers
 ```
 ---
+layout: cover
+class: text-center
+background: /img/speech.webp
+hideInToc: false
+transition: fade
+---
+
+# Using Google Forms
+
+---
+layout: li
+---
+
+::li::
+- To be able to create a Google Form
+- To be able to apply appropriate question types to your survey questions
+- To be able to share your Google Form with others
+
+::sc::
+- My group has created a Google Form that we all have access to
+- I can send my family and friends the link to my Google Form
