@@ -77,7 +77,7 @@ zoom: 1.3
 
 ---
 layout: center
-zoom: 1.3
+zoom: 1.1
 ---
 
 # Password Managers

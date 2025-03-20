@@ -1,5 +1,5 @@
 ---
-title: CAT - Survey Quesitons
+title: CAT - Survey Questions
 layout: cover
 class: text-center
 background: /img/speech.webp
@@ -145,3 +145,70 @@ layout: li
 ::sc::
 - My group has created a Google Form that we all have access to
 - I can send my family and friends the link to my Google Form
+
+---
+layout: center
+zoom: 1.2
+---
+
+# First: the rubric
+
+## Part 1 - Survey Questions
+
+| Criteria | Below Level | At Level | Above Level |
+|----------|-------------|----------|-------------|
+| Part 1 - Forming Survey Questions | Student has formed questions that collect information about cyber-security. | Student has created questions that cover knowledge and practice of survey respondents. | Student produced questions that show detailed knowledge of cyber security topic. |
+| Part 1 - Identifying Question Types | Student used a question type that tested either knowledge or practice. | Student provided questions that use multiple question types | Student's question types well suited to the question being asked |
+
+---
+layout: center
+zoom: 1.2
+---
+
+## Part 2 - Producing Survey
+
+| Criteria | Below Level | At Level | Above Level |
+|----------|-------------|----------|-------------|
+| Part 2 - Producing Survey | Student’s survey includes consent statement and questions. | Student’s survey includes relevant title and clear instructions for answering questions. |  |
+
+---
+layout: center
+zoom: 1.2
+---
+
+## Part 3 - Gathering Responses
+
+| Criteria | Below Level | At Level | Above Level |
+|----------|-------------|----------|-------------|
+| Part 3 - Gathering Responses | Student has received responses | Student has received 20 or more responses |  |
+
+---
+layout: center
+---
+
+# The Consent Statement
+
+A consent statement is a message that tells people what they are agreeing to when they fill out your survey. For this survey, we have prepared a consent statement for you to use. You can copy and paste it from the lesson plan into your Google Form.
+
+"This survey is voluntarily collecting anonymous data from friends and families of Year 7 Digital Technology students on the cyber security topic of ______. The information collected will only be used for purposes of investigating the knowledge and practices of our community and will not be gathering personal or private data. The responses will be analysed using Excel and graphs produced to provide a summary of our findings. 
+
+If you are happy to complete this survey, please continue."
+
+---
+layout: center
+---
+
+# Creating a Google Form
+
+- Go to [Google Forms](https://forms.google.com)
+    - Log in with your @schools.vic.edu.au email address. 
+- Click on the **+** button to create a new form
+- Give your form a title
+- Add your Team members as collaborators
+    - Click on the Share button <img src="/img/forms-share.png" alt="Share button" width="20px" />
+    - Type their email address
+    - Change "Responder" to "Editor"
+    - Click Send
+- Start adding questions to your form
+
+---
