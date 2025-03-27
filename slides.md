@@ -86,3 +86,6 @@ hide: false
 ---
 
 ---
+src: ./pages/programming-microbit.md
+hide: false
+---
