@@ -209,6 +209,6 @@ layout: center
     - Type their email address
     - Change "Responder" to "Editor"
     - Click Send
+- Copy the Consent Statement from the lesson plan into the description
 - Start adding questions to your form
 
----
