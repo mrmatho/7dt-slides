@@ -64,9 +64,10 @@ zoom: 1.3
 print("Hello, World!")
 ```
 
-- This code prints "Hello, World!" to the screen, using a terminal or console.
+- This code prints "Hello, World!" to the terminal or console.
 - The `print` function is used to display text or numbers.
 - The text inside the parentheses is called a string, and it must be enclosed in quotation marks.
+- When we are coding for Micro:bit, this will only display when the Micro:bit is connected to our computer.
 
 <v-click>
 
@@ -74,7 +75,7 @@ print("Hello, World!")
 display.scroll("Hello, World!")
 ```
 
-- This is the same code, only using the Micro:bit display to scroll the message.
+- This is the *same code*, only **using the Micro:bit display** to scroll the message.
 
 </v-click>
 ---
@@ -98,9 +99,11 @@ layout: center
 
 # Our First Micro:bit Program
 
-Open the Micro:bit editor at https://python.microbit.org/
+<br>
 
-- Click on the "New" button to create a new program.
+**Open the Micro:bit editor at https://python.microbit.org/ .** 
+
+- Click on the `New` button to create a new program.
 - Remove everything in the editor **except** the `from microbit import *` line.
     - This line imports the Micro:bit library, which allows us to use the Micro:bit's features in our program.
 - Write code to scroll a message on the Micro:bit display.
@@ -108,8 +111,9 @@ Open the Micro:bit editor at https://python.microbit.org/
     - Don't forget to put the text in quotation marks!
 - Test your code on the Micro:bit simulator on the right hand side
 
+<div class="note">
 ***Note:*** The Micro:bit editor suggests code as you type. This is a great way to learn how to use the Micro:bit library and Python syntax (and makes it less likely that you will make a mistake). If you see a suggestion that you like, press the `Enter` key to accept it.
-
+</div>
 ---
 layout: center
 ---
@@ -125,7 +129,8 @@ layout: center
 - Once it has **flashed** the code it should run automatically
 
 ---
-layout: fact
+layout: cover
+background: /img/microbit-bg.webp
 ---
 
 # What did you notice?
@@ -150,7 +155,7 @@ zoom: 1.1
 - To make it run continuously, we need to use a **loop**.
 - A loop is a way to repeat a block of code multiple times.
 - Python has two main types of loops: `for` loops and `while` loops.
-- We use a `while` loop to run our code **FOREVER!!!** (or until we stop it or the batttery runs out)
+- We use a `while` loop to run our code **FOREVER!!!** (or until we stop it or the battery runs out)
 
 ```python
 from microbit import *
@@ -218,5 +223,134 @@ display.show(Image("00900:99099:00900:00500:09990"))
 
 *0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.*
 
+---
+layout: cover
+background: /img/microbit-bg.webp
+hideInToc: false
+---
+
+# Using Input and Making Decisions
+
+---
+layout: center
+---
+
+# Our programs so far:
+
+- While loop to keep the code repeating
+- Instructions run one after the other
+
+```mermaid {scale: 0.9}
+
+flowchart LR
+
+A(Start) --> B{while True}
+B --> C[first instruction]
+C --> D[second instruction]
+D --> E[third instruction...]
+E --> B
+
+```
+
+---
+layout: center
+zoom: 1.2
+---
+
+# But programs are best when you can do something different!
+
+- When we interact with a program, we call it **input**
+- We can use the input to make decisions in our code
+- Micro:bit has a number of ways to get input:
+    - Buttons (A and B)
+    - Accelerometer (shake, tilt, etc.)
+    - Temperature sensor
+    - Compass (direction)
+    - Touch sensor (on the edge of the Micro:bit)
+
+*Today we will focus on using the buttons for input*
+
+---
+layout: center
+---
+
+# Today's programs
+
+```mermaid {scale: 0.9}
+
+flowchart LR
+
+A((Start)) --> B{while True}
+B --> C[do something]
+C --> D{if button A pressed}
+D -->|yes| E[do something else]
+D -->|no | F[do another thing]
+E --> B
+F --> B
+```
+
+**Note two key differences:**
+
+- The `if` statement is used to check if a condition is true or false.
+- The condition we are checking is "button A pressed".
+---
+layout: two-cols
+zoom: 1.2
+---
+
+# Code example
+
+```python
+
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+
+-  The `if` statement checks if the condition is true. The indented code only runs if that condition is true
+- The `else` statement runs if the condition is false.
+- What do you think is going to happen when we run this code?
+
+::right::
+
+<v-clicks>
+
+- We run the code:
+
+<img src="/img/mb-sad.png" alt="Micro:bit sad" width="200" style="display:block; margin:auto"/>
+
+- Then we press button A:
+
+<img src="/img/mb-happy.png" alt="Micro:bit happy" width="200" style="display:block; margin:auto"/>
+
+</v-clicks>
+---
+layout: center
+---
+
+# Your Turn: Using conditions to respond to input
+
+- Use the code below to create a program that shows a different image when button A is pressed.
+
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+
+- *Feel free to use a different image for each*
+- **Test it in the simulator first**, then if a Micro:bit is available, run it there.
+- **Extension**: Add a second button (B) to show a different image when pressed. You can use the `button_b.is_pressed()` function to check if button B is pressed. You might need to use `elif` to check for the second button. Then add a third image that shows when neither button is pressed. You can use the `else` statement to do this.
+
+---
+layout: center
 ---
 

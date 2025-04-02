@@ -34,3 +34,10 @@ strong {
     text-decoration-color: purple;
     text-decoration-style: double;
 }
+
+.note {
+    background-color: #eeeeff;
+    color: #555555;
+    font-size: 0.8rem;
+    line-height: 0.7rem;
+}
