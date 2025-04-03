@@ -16,3 +16,28 @@ table th {
     font-weight: bold;
 }
 
+em {
+    font-style: italic;
+    background-color: #eeeeff;
+    color: #555555
+}
+
+em code{
+    font-style: italic;
+    background-color: #eeeeff;
+    color: #555555
+}
+
+strong {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-decoration-style: double;
+}
+
+.note {
+    background-color: #eeeeff;
+    color: #555555;
+    font-size: 0.8rem;
+    line-height: 0.7rem;
+}
