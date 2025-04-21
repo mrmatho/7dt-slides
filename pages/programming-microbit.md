@@ -412,61 +412,6 @@ while True:
 ```
 
 
-# `and` and `or`: Combining Buttons
-
-- We can use `and` and `or` to check multiple conditions at the same time.
-- For example, we can check if both buttons A and B are pressed at the same time.
-
-```python
-from microbit import *
-
-while True:
-    if button_a.is_pressed() and button_b.is_pressed():
-        display.show(Image.HAPPY)
-    else:
-        display.show(Image.SAD)
-
-```
-
-<v-clicks>
-
-What do you think will happen when we run this code?
-
-</v-clicks>
----
-layout: two-cols
-zoom: 1.2
----
-
-# `and`
-
-- The `and` operator checks if **both conditions are true**. The code inside an `if` statement  that uses `and` will only run if both conditions are true.
-
-::right::
-
-# `or`
-
-- The `or` operator checks if **at least one of the conditions** is true. The code inside an `if` statement that uses `or` will run if either condition is true.
-
-
----
-layout: center
-zoom: 1.2
----
-
-# Your Turn: Using `and` and `or` to combine buttons
-
-Use the code below to create a program that shows a different image when both buttons A and B are pressed.
-
-```python
-
-from microbit import *
-while True:
-    if button_a.is_pressed() and button_b.is_pressed():
-        display.show(Image.HAPPY)
-```
-
-
 # Using the Reference, Ideas and API tabs
 
 The Micro:bit editor has three tabs on the left hand side:
