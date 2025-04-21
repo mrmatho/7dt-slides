@@ -112,7 +112,9 @@ layout: center
 - Test your code on the Micro:bit simulator on the right hand side
 
 <div class="note">
+
 ***Note:*** The Micro:bit editor suggests code as you type. This is a great way to learn how to use the Micro:bit library and Python syntax (and makes it less likely that you will make a mistake). If you see a suggestion that you like, press the `Enter` key to accept it.
+
 </div>
 ---
 layout: center
@@ -295,7 +297,7 @@ F --> B
 - The condition we are checking is "button A pressed".
 ---
 layout: two-cols
-zoom: 1.2
+zoom: 1.1
 ---
 
 # Code example
@@ -353,4 +355,59 @@ while True:
 ---
 layout: center
 ---
+
+# `and` and `or`: Combining Buttons
+
+- We can use `and` and `or` to check multiple conditions at the same time.
+- For example, we can check if both buttons A and B are pressed at the same time.
+
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+
+```
+
+<v-clicks>
+
+What do you think will happen when we run this code?
+
+</v-clicks>
+---
+layout: two-cols
+zoom: 1.2
+---
+
+# `and`
+
+- The `and` operator checks if **both conditions are true**. The code inside an `if` statement  that uses `and` will only run if both conditions are true.
+
+::right::
+
+# `or`
+
+- The `or` operator checks if **at least one of the conditions** is true. The code inside an `if` statement that uses `or` will run if either condition is true.
+
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Your Turn: Using `and` and `or` to combine buttons
+
+Use the code below to create a program that shows a different image when both buttons A and B are pressed.
+
+```python
+
+from microbit import *
+while True:
+    if button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.HAPPY)
+```
+
 
