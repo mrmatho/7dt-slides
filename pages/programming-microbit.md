@@ -166,7 +166,7 @@ while True:
     display.scroll("Hello, Repetitively!")
 ```
 
-**NOTE:** The text underneath `while True:` is indented. This tells Python which code belongs to the loop. The indentation is important in Python, and uses 4 spaces. 
+**NOTE:** The text underneath `while True:` is *indented*. This tells Python which code belongs to the loop. The indentation is important in Python, and uses 4 spaces. 
 
 *If you need to indent code you use the `Tab` key, and to remove indentation you use `Shift + Tab`.*
 
@@ -354,6 +354,7 @@ while True:
 
 ---
 layout: center
+hideInToc: false
 ---
 
 # `and` and `or`: Combining Buttons
@@ -411,3 +412,87 @@ while True:
 ```
 
 
+# `and` and `or`: Combining Buttons
+
+- We can use `and` and `or` to check multiple conditions at the same time.
+- For example, we can check if both buttons A and B are pressed at the same time.
+
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+
+```
+
+<v-clicks>
+
+What do you think will happen when we run this code?
+
+</v-clicks>
+---
+layout: two-cols
+zoom: 1.2
+---
+
+# `and`
+
+- The `and` operator checks if **both conditions are true**. The code inside an `if` statement  that uses `and` will only run if both conditions are true.
+
+::right::
+
+# `or`
+
+- The `or` operator checks if **at least one of the conditions** is true. The code inside an `if` statement that uses `or` will run if either condition is true.
+
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Your Turn: Using `and` and `or` to combine buttons
+
+Use the code below to create a program that shows a different image when both buttons A and B are pressed.
+
+```python
+
+from microbit import *
+while True:
+    if button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.HAPPY)
+```
+
+
+# Using the Reference, Ideas and API tabs
+
+The Micro:bit editor has three tabs on the left hand side:
+
+- **Reference**: The reference tab has lots of categories for the different things you might want to do with the code.
+- **Ideas**: The ideas tab has lots of examples of projects you can do with the Micro:bit. You can use these as inspiration for your own projects.
+- **API**: The API tab has a list of all the functions and classes you can use in your code. This does less explaining than the **Reference** tab, but it is a complete list of the available functions and classes.
+
+---
+layout: center
+hideInToc: false
+---
+
+# Dealing with Errors
+
+<v-clicks depth="2">
+
+- We should expect to make mistakes when we are coding
+- Errors can be because:
+    - We mistyped something or broke the rules of Python (syntax error)
+    - We used a function or variable that doesn't exist (name error)
+    - The code doesn't do what we expected (logical error)
+- Syntax or name errors will show up in the editor with:
+    - A red underline in the editor
+    - A red circle in the left hand side of the editor (once you have moved away)
+
+<img src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
+
+</v-clicks>
