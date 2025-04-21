@@ -36,8 +36,10 @@ strong {
 }
 
 .note {
-    background-color: #eeeeff;
-    color: #555555;
+    background-color: #f9f5b8;
+    
     font-size: 0.8rem;
     line-height: 0.7rem;
+    padding:2px 20px;
+    border-radius: 15px;
 }
