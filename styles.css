@@ -33,6 +33,7 @@ strong {
     text-decoration: underline;
     text-decoration-color: purple;
     text-decoration-style: double;
+    --uno: 'bg-green-300 dark:bg-green-800';
 }
 
 .note {

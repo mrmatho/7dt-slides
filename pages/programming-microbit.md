@@ -355,7 +355,7 @@ layout: center
 hideInToc: false
 ---
 
-# Using the Reference, Ideas and API tabs
+# Micro:bit - Using the Reference, Ideas and API tabs
 
 The Micro:bit editor has three tabs on the left hand side:
 
@@ -366,21 +366,25 @@ The Micro:bit editor has three tabs on the left hand side:
 ---
 layout: center
 hideInToc: false
+zoom: 1.2
 ---
 
-# Dealing with Errors
+# Micro:bit - Dealing with Errors
 
 <v-clicks depth="2">
 
-- We should expect to make mistakes when we are coding
+- **All programmers make mistakes when we are coding**
 - Errors can be because:
-    - We mistyped something or broke the rules of Python (syntax error)
-    - We used a function or variable that doesn't exist (name error)
-    - The code doesn't do what we expected (logical error)
+    - We mistyped something or broke the rules of Python (*syntax error*)
+    - We used a function or variable that doesn't exist (*name error*)
+    - The code doesn't do what we expected (*logical error*)
 - Syntax or name errors will show up in the editor with:
     - A red underline in the editor
     - A red circle in the left hand side of the editor (once you have moved away)
 
-<img src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
-
 </v-clicks>
+
+<img v-after src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
+
+---
+
