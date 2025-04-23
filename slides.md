@@ -89,3 +89,8 @@ hide: false
 src: ./pages/programming-microbit.md
 hide: false
 ---
+
+---
+src: ./pages/microbit-networking.md
+hide: false
+---

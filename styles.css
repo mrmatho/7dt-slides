@@ -19,7 +19,9 @@ table th {
 em {
     font-style: italic;
     background-color: #eeeeff;
-    color: #555555
+    color: #555555;
+    border-radius: 3px;
+    padding: 0px 3px;
 }
 
 em code{
@@ -34,6 +36,8 @@ strong {
     text-decoration-color: purple;
     text-decoration-style: double;
     --uno: 'bg-green-300 dark:bg-green-800';
+    border-radius: 3px;
+    padding: 0px 3px;
 }
 
 .note {
@@ -44,3 +48,4 @@ strong {
     padding:2px 20px;
     border-radius: 15px;
 }
+

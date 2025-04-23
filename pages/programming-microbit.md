@@ -37,7 +37,7 @@ layout: two-cols-header
 - **Temperature sensor**: Measures the temperature.
 
 ::right::
-- **Bluetooth**: Allows the Micro:bit to connect to other devices wirelessly.
+- **Bluetooth/Radio**: Allows the Micro:bit to connect to other devices wirelessly.
 - **USB port**: Used to connect the Micro:bit to a computer for programming.
 - **Power supply**: Can be powered by batteries or USB.
 - **Pins**: 25 pins that can be used to connect to other devices or sensors.
@@ -101,11 +101,8 @@ layout: center
 
 <br>
 
-**Open the Micro:bit editor at https://python.microbit.org/ .** 
+**Open the Micro:bit editor using the Micro:bit Classroom link in the lesson plan.** 
 
-- Click on the `New` button to create a new program.
-- Remove everything in the editor **except** the `from microbit import *` line.
-    - This line imports the Micro:bit library, which allows us to use the Micro:bit's features in our program.
 - Write code to scroll a message on the Micro:bit display.
     - Remember: You can use the `display.scroll()` function to scroll text on the Micro:bit display.
     - Don't forget to put the text in quotation marks!
@@ -159,7 +156,8 @@ zoom: 1.1
 - Python has two main types of loops: `for` loops and `while` loops.
 - We use a `while` loop to run our code **FOREVER!!!** (or until we stop it or the battery runs out)
 
-```python
+```python{3|all}
+
 from microbit import *
 
 while True:
@@ -205,6 +203,22 @@ while True:
     display.show(Image.HEART)
 ```
 
+
+```python
+
+from microbit import *
+
+while True:
+    display.show(Image.HEART)
+    sleep(1000) 
+    display.show(Image.SAD)
+    sleep(1000)  
+```
+
+Why do you think I chose 1000?
+
+---
+layout: center
 ---
 
 ## Give it a try
@@ -217,13 +231,27 @@ while True:
     display.show(Image.HEART)
 ```
 
-There are a number of other images you can use, including: *`Image.SAD`, `Image.HAPPY`, `Image.SILLY`, `Image.ANGRY`, `Image.CONFUSED`, `Image.YES`, `Image.NO`* - pick one you like and try it out!
+1. There are a number of other images you can use, including: *`Image.SAD`, `Image.HAPPY`, `Image.SILLY`, `Image.ANGRY`, `Image.CONFUSED`, `Image.YES`, `Image.NO`* - pick one you like and try it out!
+2. Add a second image to your code and use the `sleep()` function to pause between them. 
+
+
 - **Extension**: You can also create your own images using the `Image` class. For example, you can create a windmill image like this:
 ```python   
 display.show(Image("00900:99099:00900:00500:09990"))
 ```
 
 *0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.*
+
+---
+layout: center
+zoom: 1.4
+---
+
+# Packing up your Micro:bit
+
+- Micro:bits are *small, easy to lose and fragile*.
+- **Carefully** unplug the USB cable from the Micro:bit and your computer
+- Once your **whole table** has the correct number of Micro:bits ready to return, one person from each table should take them to the front of the room.
 
 ---
 layout: cover
