@@ -380,7 +380,7 @@ What do you think will happen when we run this code?
 </v-clicks>
 ---
 layout: two-cols
-zoom: 1.2
+zoom: 1.3
 ---
 
 # `and`
@@ -392,7 +392,6 @@ zoom: 1.2
 # `or`
 
 - The `or` operator checks if **at least one of the conditions** is true. The code inside an `if` statement that uses `or` will run if either condition is true.
-
 
 ---
 layout: center
@@ -411,6 +410,31 @@ while True:
         display.show(Image.HAPPY)
 ```
 
+---
+layout: center
+hideInToc: false
+---
+
+# Dealing with Errors
+
+<v-clicks depth="2">
+
+- We should *expect* to make mistakes when we are coding
+- Errors can be because:
+    - We mistyped something or broke the rules of Python (syntax error)
+    - We used a function or variable that doesn't exist (name error)
+    - The code doesn't do what we expected (logical error)
+- Syntax or name errors will show up in the editor with:
+    - A red underline in the editor
+    - A red circle in the left hand side of the editor (once you have moved away)
+
+<img src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
+
+</v-clicks>
+---
+layout: center
+hideInToc: false
+---
 
 # Using the Reference, Ideas and API tabs
 
@@ -422,22 +446,76 @@ The Micro:bit editor has three tabs on the left hand side:
 
 ---
 layout: center
-hideInToc: false
 ---
 
-# Dealing with Errors
+# Variables
 
-<v-clicks depth="2">
+- A variable is a way to store a value in your program.
+- Each variable has a *name* and a *value*.
+- The word `variable` means able to change, so a variable can be changed to store different values
+- We can use variables to store numbers, text, or other data types.
+- Different programming languages have different ways of creating variables, but in Python we create a variable by 
+  - using the `=` sign to assign a value to a variable name
 
-- We should expect to make mistakes when we are coding
-- Errors can be because:
-    - We mistyped something or broke the rules of Python (syntax error)
-    - We used a function or variable that doesn't exist (name error)
-    - The code doesn't do what we expected (logical error)
-- Syntax or name errors will show up in the editor with:
-    - A red underline in the editor
-    - A red circle in the left hand side of the editor (once you have moved away)
+```python
+x = 5
+y = "Hello, World!"
+```
 
-<img src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
+---
+layout: center
+---
+
+# Using variables in Micro:bit
+- We can use variables:
+    - to store values from the Micro:bit, like the temperature or the accelerometer values
+    - to store values that we want to use later in our program
+    - to keep track of how many times something has happened
+    - and lots of other reasons!
+
+---
+layout: center
+---
+
+# Example: Using variables to store values
+
+```python
+from microbit import *
+
+while True:
+    temp = temperature() # get the temperature
+    display.scroll(temp) # scroll the temperature
+```
+
+<v-clicks>
+
+- The `temperature()` function gets the temperature from the Micro:bit.
+- The value is stored in the variable `temp`.
+- The `display.scroll(temp)` function scrolls the value of `temp` on the Micro:bit display.
+- The value of `temp` could change every time the code runs, because the temperature could change.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Example: Using variables to keep track of how many times something has happened
+
+```python
+from microbit import *
+
+count = 0 # create a variable to keep track of how many times the button has been pressed
+while True:
+    if button_a.is_pressed():
+        count = count + 1 # increase the count by 1
+        display.scroll(count) # scroll the count
+```
+<v-clicks>
+- The variable `count` is created to keep track of how many times the button has been pressed.
+- The `count` variable is increased by 1 every time button A is pressed.
+    - (Another way we could write this is `count += 1`)
+- The value of `count` is displayed on the Micro:bit display.
+- The value of `count` will change every time the button is pressed.
 
 </v-clicks>
