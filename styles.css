@@ -40,11 +40,16 @@ strong {
     padding: 0px 3px;
 }
 
+strong code{
+    font-weight: bolder;
+    background-color: #eeeeff;
+    color: #555555
+}
+
 .note {
-    background-color: #f9f5b8;
-    
-    font-size: 0.9rem;
-    line-height: 0.7rem;
+    --uno: 'bg-yellow-300 dark:bg-yellow-800 text-black dark:text-white';
+    font-size: 0.95rem;
+    line-height: 0.77rem;
     padding:2px 20px;
     border-radius: 15px;
 }
