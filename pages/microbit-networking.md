@@ -105,3 +105,13 @@ In groups of 2 or 3, decide on a secret code to use for your messages.
 - For example, you could replace "A" with "X", "B" with "Y", and so on.
 - Or you could use a more complex code, like a number system where each letter corresponds to a number (A=1, B=2, C=3, etc.).
 
+---
+layout: center
+---
+
+# Challenge 2 - Create a program to send and receive messages
+
+- Make two micro:bits talk to each other using radio.
+- Change your messages into your secret code before sending.
+- Turn the secret code back into normal words when you get a message.
+- Use `radio.send()` to send messages and `radio.receive()` to get messages.

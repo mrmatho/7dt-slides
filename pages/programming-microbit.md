@@ -254,6 +254,33 @@ zoom: 1.4
 - Once your **whole table** has the correct number of Micro:bits ready to return, one person from each table should take them to the front of the room.
 
 ---
+layout: center
+---
+
+# Review: Different Parts of the Micro:bit Programs
+
+- **Importing Libraries**: The first line of code imports the Micro:bit library, which gives us access to all the functions and classes we need to use the Micro:bit. **If you don't import the library, words like `display` and `button_a` are meaningless.**
+```python
+from microbit import *
+```
+- **While Loop**: The `while True:` line creates an infinite loop that will run the code inside it forever. This is how we make the Micro:bit do something continuously.
+```python
+while True:
+```
+
+- **Display**: 
+    - The `display.show()` function is used to show an image or text on the Micro:bit's LED display. You can use it to show different images or text messages.
+    ```python
+    display.show(Image.HEART)
+    ```
+    - The `display.scroll()` function is used to scroll a message across the display. You can use it to show longer messages that don't fit on the screen all at once.
+    ```python
+    display.scroll("Hello, World!")
+    ```
+---
+
+
+---
 layout: cover
 background: /img/microbit-bg.webp
 hideInToc: false

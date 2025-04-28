@@ -27,7 +27,7 @@ em {
 em code{
     font-style: italic;
     background-color: #eeeeff;
-    color: #555555
+    --uno: 'bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white';
 }
 
 strong {
@@ -40,6 +40,7 @@ strong {
     padding: 0px 3px;
 }
 
+
 strong code{
     font-weight: bolder;
     background-color: #eeeeff;
@@ -47,10 +48,16 @@ strong code{
 }
 
 .note {
-    --uno: 'bg-yellow-300 dark:bg-yellow-800 text-black dark:text-white';
+    --uno: 'bg-yellow-300 dark:bg-yellow-600 text-black dark:text-white';
     font-size: 0.95rem;
     line-height: 0.77rem;
     padding:2px 20px;
     border-radius: 15px;
 }
 
+em strong {
+    font-style: italic;
+    --uno: 'bg-teal-300 dark:bg-teal-800 text-black dark:text-white';
+    border-radius: 3px;
+    padding: 0px 3px;
+}
