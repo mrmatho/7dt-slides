@@ -255,6 +255,7 @@ zoom: 1.4
 
 ---
 layout: center
+zoom: 1.2
 ---
 
 # Review: Different Parts of the Micro:bit Programs
@@ -263,22 +264,31 @@ layout: center
 ```python
 from microbit import *
 ```
+
 - **While Loop**: The `while True:` line creates an infinite loop that will run the code inside it forever. This is how we make the Micro:bit do something continuously.
 ```python
 while True:
 ```
 
-- **Display**: 
-    - The `display.show()` function is used to show an image or text on the Micro:bit's LED display. You can use it to show different images or text messages.
-    ```python
-    display.show(Image.HEART)
-    ```
-    - The `display.scroll()` function is used to scroll a message across the display. You can use it to show longer messages that don't fit on the screen all at once.
-    ```python
-    display.scroll("Hello, World!")
-    ```
+---
+layout: center
+zoom: 1.2
 ---
 
+# Review - Display reminders
+
+
+- The `display.show()` function is used to show an image or text on the Micro:bit's LED display. You can use it to show different images or text messages.
+
+```python
+display.show(Image.HEART)
+```
+
+- The `display.scroll()` function is used to scroll a message across the display. You can use it to show longer messages that don't fit on the screen all at once.
+
+```python
+display.scroll("Hello, World!")
+```
 
 ---
 layout: cover
@@ -368,7 +378,7 @@ while True:
         display.show(Image.SAD)
 ```
 
--  The `if` statement checks if the condition is true. The indented code only runs if that condition is true
+- The `if` statement checks if the condition is true. The indented code only runs if that condition is true
 - The `else` statement runs if the condition is false.
 - What do you think is going to happen when we run this code?
 
