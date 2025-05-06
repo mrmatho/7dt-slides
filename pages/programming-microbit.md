@@ -466,15 +466,18 @@ zoom: 1.2
 
 # Your Turn: Using `and` and `or` to combine buttons
 
-Use the code below to create a program that shows a different image when both buttons A and B are pressed.
+Use the code below to create a program that shows a different image when either buttons A or B are pressed.
 
 ```python
 
 from microbit import *
 while True:
-    if button_a.is_pressed() and button_b.is_pressed():
+    if button_a.is_pressed() or button_b.is_pressed():
         display.show(Image.HAPPY)
 ```
+
+What would the program do if we used `and` instead of `or`?
+
 ---
 layout: center
 ---
@@ -486,6 +489,15 @@ The Micro:bit editor has three tabs on the left hand side:
 - **Reference**: The reference tab has lots of categories for the different things you might want to do with the code.
 - **Ideas**: The ideas tab has lots of examples of projects you can do with the Micro:bit. You can use these as inspiration for your own projects.
 - **API**: The API tab has a list of all the functions and classes you can use in your code. This does less explaining than the **Reference** tab, but it is a complete list of the available functions and classes.
+
+---
+layout: center
+zoom: 1.3
+---
+
+# Using the Reference Tab
+
+Spend a few minutes exploring the Reference tab. Then discuss with a partner something interesting you found (that you might like to explore further).
 
 ---
 layout: center

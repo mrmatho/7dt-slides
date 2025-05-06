@@ -91,6 +91,11 @@ hide: false
 ---
 
 ---
+src: ./pages/microbit-variables.md
+hide: false
+---
+
+---
 src: ./pages/microbit-networking.md
 hide: false
 ---
