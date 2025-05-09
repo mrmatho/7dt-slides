@@ -61,3 +61,12 @@ em strong {
     border-radius: 3px;
     padding: 0px 3px;
 }
+
+.col-header{
+    max-height:100px !important;
+}
+
+.col-left, .col-right{
+    min-height:600px !important;
+    padding: 10px;
+}

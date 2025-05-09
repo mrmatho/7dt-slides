@@ -11,6 +11,8 @@ defaults:
   hideInToc: true
   transition: fade
 
+fonts:
+  mono: Cascadia Mono
 # apply unocss classes to the current slide
 class: text-center
 selectable: true

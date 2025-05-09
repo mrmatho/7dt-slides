@@ -55,7 +55,7 @@ while True:
 
 ## Step by Step
 
-<div style="font-size:80%" v-clicks>
+<div style="font-size:80%">
 
 - **Import Libraries**
 - **Turn on Radio**: Use `radio.on()` to turn on the radio module.

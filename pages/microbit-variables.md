@@ -2,7 +2,7 @@
 title: Python Variables
 layout: cover
 class: text-center
-background: /img/microbit-bg.webp
+background: /img/duck-typing.png
 hideInToc: false
 transition: fade
 ---
@@ -113,3 +113,165 @@ while True:
     display.show(count)
     sleep(100)
 ``` 
+---
+layout: two-cols-header
+zoom: 0.9
+---
+
+# Using Variables
+
+- Variables can be used for calculating, comparing and storing data.
+
+::left::
+**Calculating**
+
+```python
+a = 5
+b = 10
+
+result = a + b  # result is now 15
+```
+
+We can use any of the mathematical operators: `+`, `-`, `*`, `/`.
+
+We can also use the `+=` operator to add a value to a variable.
+
+```python
+a = 5
+a += 2  # a is now 7
+```
+
+::right::
+
+**Comparing**
+
+```python
+a = 5
+b = 10
+
+if a < b:
+    print("a is less than b")
+else:
+    print("a is greater than or equal to b")
+```
+
+```python
+
+a = 5
+b = 5
+
+if a == b:
+    print("a is equal to b")
+else:
+    print("a is not equal to b")
+```
+
+*Note:* `==` is used for comparison, while `=` is used for assignment. To check for not equal, we use `!=`. 
+
+---
+layout: center
+---
+
+<img src="/img/duck-typing.png" alt="Duck Typing" id = "duck" style="width:300px; float:right; border-radius: 25px;" />
+<caption style="width: 300px; clear: right;float:right; font-size: 0.8rem; color: #999;" for="duck">Prize for anyone who can tell me the significance of this image. (It's pretty niche)</caption>
+
+# Data Types
+
+- Data types are the different kinds of data that we can use in our programs.
+- In Python, there are several data types, but the most common ones are:
+    - **Integers**: Whole numbers (e.g., 1, 2, 3)
+    - **Floats**: Decimal numbers (e.g., 1.5, 2.7)
+    - **Strings**: Text (e.g., "Hello", "Micro:bit", "This is the best ever!!!!")
+    - **Booleans**: True or False values (e.g., True, False)
+
+Each data type has its own purpose and is used in different situations. 
+- For example, we would use integers for counting, floats for measurements, strings for text, and booleans for true/false conditions.
+- *Understanding data types is important* because it helps us choose the right type of variable for our data and avoid errors in our programs.
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Using variables with different data types
+
+```python
+
+name = "Alice"  # String
+age = 10  # Integer
+height = 1.5  # Float
+is_student = True  # Boolean
+
+```
+
+Notice:
+- Alice is in quotes because it is a **string**.
+- 10 is not in quotes because it is an **integer**.
+- We know that height is a **float** because it has a decimal point.
+- is_student is a **boolean** because it can only be `True` or `False`.
+
+---
+layout: two-cols-header
+zoom: 1.1
+---
+
+# Working with different data types
+
+::left::
+
+```python
+
+name = "Philip"
+multiplier = 2
+
+out = name * multiplier
+print(out)  # Output: PhilipPhilip
+
+```
+
+- We can multiply a string by an integer to repeat the string that many times.
+- In this case, the string "Philip" is repeated 2 times, resulting in "PhilipPhilip".
+
+::right::
+
+```python
+
+name = "Roger"
+multiplier = 2.5
+
+out = name * multiplier
+print(out)  # Output: TypeError
+
+```
+
+- We cannot multiply a string by a float (decimal number).
+- This will result in a `TypeError` because Python does not allow this operation.
+- The data types matter!
+
+---
+layout: center
+---
+
+# Converting between data types
+
+- Sometimes we need to convert between different data types.
+- For example, if we have a string that represents a number, we can convert it to an integer or float.
+- We can use the `int()` and `float()` functions to convert strings to integers and floats, respectively.
+
+```python
+age = "10"  # String
+age_int = int(age)  # Convert to Integer
+age_float = float(age)  # Convert to Float
+
+```
+
+- We can also convert numbers to strings using the `str()` function.
+
+```python
+
+age = 10  # Integer
+age_str = str(age)  # Convert to String
+
+```
+
+- This is useful when we want to display numbers as text or concatenate (merge) them with other strings.
