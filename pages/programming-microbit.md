@@ -397,6 +397,34 @@ while True:
 </v-clicks>
 ---
 layout: center
+zoom: 1.2
+---
+
+# `if`, `elif` and `else`
+- The `if` statement checks if a condition is true. If it is, the code inside the `if` block runs.
+- The `elif` statement (short for "else if") checks **another condition** if the first one is false. If it is true, the code inside the `elif` block runs.
+- The `else` statement runs if all previous conditions are false.
+
+
+
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)
+
+    elif button_b.is_pressed():
+        display.show(Image.SAD)
+
+    else:
+        display.show(Image.SILLY)
+```
+
+
+
+---
+layout: center
 ---
 
 # Your Turn: Using conditions to respond to input
