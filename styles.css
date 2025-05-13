@@ -18,10 +18,9 @@ table th {
 
 em {
     font-style: italic;
-    background-color: #eeeeff;
-    color: #555555;
-    border-radius: 3px;
-    padding: 0px 3px;
+    --uno: 'bg-purple-300 dark:bg-purple-800';
+    border-radius: 5px;
+    padding: 0px 4px;
 }
 
 em code{
@@ -33,11 +32,10 @@ em code{
 strong {
     font-weight: bolder;
     text-decoration: underline;
-    text-decoration-color: purple;
     text-decoration-style: double;
     --uno: 'bg-green-300 dark:bg-green-800';
-    border-radius: 3px;
-    padding: 0px 3px;
+    border-radius: 4px;
+    padding: 0px 4px;
 }
 
 

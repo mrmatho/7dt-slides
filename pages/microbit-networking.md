@@ -69,6 +69,7 @@ while True:
 
 ---
 layout: center
+zoom: 1.3
 ---
 
 # Why do you think we need to set a channel?
@@ -101,9 +102,18 @@ layout: center
 
 In groups of 2 or 3, decide on a secret code to use for your messages.
 
-- You can use a simple substitution cipher, where each letter is replaced by another lette r or symbol.
-- For example, you could replace "A" with "X", "B" with "Y", and so on.
-- Or you could use a more complex code, like a number system where each letter corresponds to a number (A=1, B=2, C=3, etc.).
+1. You can use a simple substitution cipher, where each letter is replaced by another letter or symbol.
+2. For example, you could replace "A" with "X", "B" with "Y", and so on.
+3. Or you could use a more complex code, like a number system where each letter corresponds to a number (A=1, B=2, C=3, etc.).
+4. Each group member create a test message:
+    - Encrypt the message using your secret code.
+    - Pass the encrypted message to another group member.
+5. Decrypt the message you were given by reversing the secret code.
+
+## Example
+- Original Message: "HELLO"
+- Substitution Cipher: Shift each letter by 1 (A → B, B → C, C → D, Z → A etc.)
+- Encrypted Message: "IFMMP"
 
 ---
 layout: center

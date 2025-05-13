@@ -16,7 +16,7 @@ layout: li
 ::li::
 
 - To be able to understand the purpose of variables in programming.
-- To be able to create and use variables in Python for our micro:bit projects
+- To be able to create and use variables in Python for our micro:bit projects.
 - To understand the difference between different data types in Python and why they are important.
 
 ::sc::
@@ -46,6 +46,7 @@ zoom: 1.2
 <v-clicks>
 ```python
 my_variable = 10 
+
 ```
 </v-clicks>
 
@@ -96,7 +97,7 @@ zoom: 1.1
 # Your Turn!
 
 1. Open the sample code in Micro:bit Classroom. Test that it adds 1 to the `count` each time you press button A.
-2. Change the program so that it also adds 2 to the `count` each time you press **button B**.
+2. Change the program so that it also adds 2 to the `count` each time you press **button B**. (This will need an additional `if` statement.)
 3. Update the program so that it resets the `count` to 0 when you shake the micro:bit.
  
 *Sample Code*
@@ -123,6 +124,7 @@ zoom: 0.9
 - Variables can be used for calculating, comparing and storing data.
 
 ::left::
+
 **Calculating**
 
 ```python
@@ -190,6 +192,23 @@ Each data type has its own purpose and is used in different situations.
 
 ---
 layout: center
+---
+
+# Data Types Questions
+
+In your book, write each of the following data values and identify their data type:
+
+1. "Hello"
+2. 3.14
+3. 42
+4. True
+5. "Micro:bit"
+6. 0.5
+7. 7 + 2.1
+8. "10"
+
+---
+layout: center
 zoom: 1.2
 ---
 
@@ -246,10 +265,11 @@ print(out)  # Output: TypeError
 
 - We cannot multiply a string by a float (decimal number).
 - This will result in a `TypeError` because Python does not allow this operation.
-- The data types matter!
+- Python only allows multiplying a string by an integer because it needs to know how many times to repeat the string. A float does not represent a whole number, so this operation is not allowed.
 
 ---
 layout: center
+zoom: 0.9
 ---
 
 # Converting between data types
@@ -257,6 +277,7 @@ layout: center
 - Sometimes we need to convert between different data types.
 - For example, if we have a string that represents a number, we can convert it to an integer or float.
 - We can use the `int()` and `float()` functions to convert strings to integers and floats, respectively.
+- Be careful when converting strings to numbers. If the string does not represent a valid number (e.g., "hello"), Python will raise a `ValueError`.
 
 ```python
 age = "10"  # String
@@ -272,6 +293,22 @@ age_float = float(age)  # Convert to Float
 age = 10  # Integer
 age_str = str(age)  # Convert to String
 
+print("My age is " + age_str)  # Output: My age is 10
+
 ```
 
 - This is useful when we want to display numbers as text or concatenate (merge) them with other strings.
+
+---
+layout: center
+---
+
+# Your Turn!
+
+Complete the following tasks in Micro:bit Classroom:
+
+1. Create a variable with a string value representing a number (e.g., `"25"`).
+2. Convert it to an integer and a float.
+3. Perform a calculation with the converted values (e.g., add 10).
+4. Convert the result back to a string and print a message with the result.
+
