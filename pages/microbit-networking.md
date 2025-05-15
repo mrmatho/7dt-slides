@@ -21,7 +21,7 @@ A network is a group of devices that are connected together to share information
 In the case of micro:bits, we can connect multiple devices to communicate with each other using radio signals.
 
 ---
-layout: two-cols-header 
+layout: two-cols-header
 ---
 
 # Sending a Message
@@ -35,7 +35,7 @@ from microbit import *
 import radio
 
 radio.on()  # Turn on the radio
-radio.config(channel=7)  # Set the channel to 7
+radio.config(group=7)  # Set the channel to 7
 
 while True:
     # Check if button A is pressed
