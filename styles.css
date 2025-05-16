@@ -1,9 +1,10 @@
 
+
 table td {
     text-align: left;
     border: 1px solid #888;
-    font-size: 0.8rem;
-    line-height: 0.7rem;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
 }
 
 table th {
@@ -13,7 +14,7 @@ table th {
     background-color: #7fb393;
     color: black;
     line-height: 0.7rem;
-    font-weight: bold;
+    font-weight: bolder !important;
 }
 
 em {

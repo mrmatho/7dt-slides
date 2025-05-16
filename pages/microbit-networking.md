@@ -21,6 +21,56 @@ A network is a group of devices that are connected together to share information
 In the case of micro:bits, we can connect multiple devices to communicate with each other using radio signals.
 
 ---
+layout: center
+---
+
+# Messaging
+
+For our micro:bits to communicate, we need to:
+
+- **Send messages**: One micro:bit sends a message to another micro:bit.
+- **Receive messages**: The other micro:bit receives the message and can respond or take action based on it.
+- **Know which messages are for us**: We need to set up a way to ensure that only the intended recipient can read the message.
+
+---
+layout: two-cols-header
+---
+
+# Receiving a Message
+
+To receive a message from another micro:bit, we can use the radio module built into the micro:bit. The radio module allows us to send and receive messages wirelessly.
+
+::left::
+
+```python
+from microbit import *
+
+import radio
+radio.on()  # Turn on the radio
+radio.config(group=1)  # Set the channel to 1
+
+while True:
+    # Check for incoming messages
+    incoming = radio.receive()  
+    
+    if incoming:
+         # Scroll the incoming message 
+        display.scroll(incoming) 
+```
+::right::  
+
+<div class="note" style="font-size:90%">
+
+## Step by Step
+
+1. **Import Libraries** - including the radio library which is new for us.
+2. **Turn on Radio** - Use `radio.on()` to turn on the radio module.
+3. **Set Group** - Use `radio.config(group=1)` to set the radio group to 1. Only devices in the same group can communicate with each other. You can set the group to any number between 0 and 255.
+4. **Receive Messages** - Use `radio.receive()` to check for incoming messages. *If* a message is received, scroll it on the display using `display.scroll(incoming)`.
+
+</div>
+
+---
 layout: two-cols-header
 ---
 

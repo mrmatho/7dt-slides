@@ -192,23 +192,6 @@ Each data type has its own purpose and is used in different situations.
 
 ---
 layout: center
----
-
-# Data Types Questions
-
-In your book, write each of the following data values and identify their data type:
-
-1. "Hello"
-2. 3.14
-3. 42
-4. True
-5. "Micro:bit"
-6. 0.5
-7. 7 + 2.1
-8. "10"
-
----
-layout: center
 zoom: 1.2
 ---
 
@@ -228,6 +211,37 @@ Notice:
 - 10 is not in quotes because it is an **integer**.
 - We know that height is a **float** because it has a decimal point.
 - is_student is a **boolean** because it can only be `True` or `False`.
+
+---
+layout: two-cols
+---
+
+# Data Types Questions
+
+On the worksheet, identify the data type of each value by circling it:
+
+1. "Hello"
+2. 3.14
+3. 42
+4. True
+5. "Micro:bit"
+6. 0.5
+7. 7 + 2.1
+8. "10"
+
+::right::
+
+<div class="note" style="padding: 20px; text-size: 1.2rem;">
+
+# Remember:
+
+- Text data -> **String**
+- Whole numbers -> **Integer**
+- Decimal numbers -> **Float**
+- True or False -> **Boolean**
+
+</div>
+
 
 ---
 layout: two-cols-header
@@ -303,12 +317,30 @@ print("My age is " + age_str)  # Output: My age is 10
 layout: center
 ---
 
-# Your Turn!
+# Using A Variable for Temperature
 
-Complete the following tasks in Micro:bit Classroom:
+Micro:bit allows us to measure the temperature using the built-in temperature sensor. We can use a variable to store the temperature value before we display it on the micro:bit's LED screen.
 
-1. Create a variable with a string value representing a number (e.g., `"25"`).
-2. Convert it to an integer and a float.
-3. Perform a calculation with the converted values (e.g., add 10).
-4. Convert the result back to a string and print a message with the result.
+```python
+from microbit import *
 
+temp = temperature()  # Get the current temperature (in degrees Celsius) and store it in temp
+display.show(temp)  # Display the temperature on the micro:bit
+```
+
+## Your Turn!
+
+Create one of the following programs using a variable for temperature: 
+
+| Mild | Medium | Spicy |
+|----|---|---|
+| Display the current temperature in Celsius | Display the temperature in Celsius, then in Fahrenheit | Decide whether the temperature as Cold, Mild or Hot, then give the temperature in Celsius and Fahrenheit |
+
+ 
+<div class="note"> 
+
+**Note:**
+
+The formula for converting Celsius to Fahrenheit is:
+$F = C * 9/5 + 32$
+</div>
