@@ -91,7 +91,7 @@ zoom: 1.3
 
 Use the code below to receive a message I'll be sending from my micro:bit. Once your micro:bit is set up and the message is scrolling, help a friend get it working too!
 
-```python
+```python {9-13|all}
 from microbit import *
 
 import radio
@@ -155,7 +155,7 @@ while True:
 </div>
 
 ---
-layout: center
+layout: two-cols
 zoom: 1.3
 ---
 
@@ -169,6 +169,16 @@ zoom: 1.3
 
 </v-clicks>
 
+::right::
+
+# What else could we do to make sure our messages are private?
+
+<v-clicks>
+
+- We could use a **group** to ensure that only devices in the same group can communicate with each other.
+- We could use a secret code (**encryption**) to scramble our messages so that only someone who knows the code can read them.
+
+</v-clicks>
 ---
 layout: center
 ---
