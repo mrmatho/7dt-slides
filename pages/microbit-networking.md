@@ -55,7 +55,7 @@ To receive a message from another micro:bit, we can use the radio module built i
 
 ::left::
 
-```python
+```python {all|9-13}
 from microbit import *
 
 import radio
@@ -72,14 +72,14 @@ while True:
 ```
 ::right::  
 
-<div class="note" style="font-size:90%">
+<div class="note" style="font-size:85%">
 
 ## Step by Step
 
 1. **Import Libraries** - including the radio library which is new for us.
 2. **Turn on Radio** - Use `radio.on()` to turn on the radio module.
 3. **Set Group** - Use `radio.config(group=1)` to set the radio group to 1. Only devices in the same group can communicate with each other. You can set the group to any number between 0 and 255.
-4. **Receive Messages** - Use `radio.receive()` to check for incoming messages. *If* a message is received, scroll it on the display using `display.scroll(incoming)`.
+4. **Receive Messages** - Use `radio.receive()` to store any message in a variable called `incoming`. If `incoming` has a message, scroll it on the display using `display.scroll(incoming)`.
 
 </div>
 ---
@@ -96,7 +96,7 @@ from microbit import *
 
 import radio
 radio.on()  # Turn on the radio
-radio.config(group=1)  # Set the channel to 1
+radio.config(group=1)  # Set the group to 1
 
 while True:
     # Check for incoming messages
@@ -122,7 +122,7 @@ from microbit import *
 import radio
 
 radio.on()  # Turn on the radio
-radio.config(group=1)  # Set the channel to 1
+radio.config(group=1)  # Set the group to 1
 
 while True:
     # Check if button A is pressed
@@ -145,7 +145,7 @@ while True:
 
 ## Add in Sending Messages
 
-- **Send Message**: Use `radio.send("Hello!")` to send a message
+- **Send Message**: Use `radio.send("Hello!")` to send a message. (It doesn't need to be "Hello!")
 - **Display Sending**: Show "S" (or something else) on the display to indicate that a message is being sent.
 - **Pair up with a friend** and choose a different group number (between 0 and 255) to send messages to each other to test your code.
 - Modify your code to allow different messages to be sent depending on the buttons or shaking the micro:bit.
