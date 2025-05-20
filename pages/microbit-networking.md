@@ -11,6 +11,16 @@ transition: fade
 # Micro:bit Networking
 
 ---
+layout: section
+---
+
+# Why might I want to send messages between micro:bits? 
+
+## Brainstorm as many ideas as you can think of in your table groups.
+
+*Get creative - weird answers are wonderful!*
+
+---
 layout: center
 ---
 
@@ -18,10 +28,13 @@ layout: center
 
 A network is a group of devices that are connected together to share information and resources. 
 
-In the case of micro:bits, we can connect multiple devices to communicate with each other using radio signals.
+In the case of micro:bits, we can send messages between micro:bits using radio communication.
+
+This allows us to create projects where multiple micro:bits can work together, share data, and respond to each other.
 
 ---
 layout: center
+zoom: 1.2
 ---
 
 # Messaging
@@ -29,7 +42,7 @@ layout: center
 For our micro:bits to communicate, we need to:
 
 - **Send messages**: One micro:bit sends a message to another micro:bit.
-- **Receive messages**: The other micro:bit receives the message and can respond or take action based on it.
+- **Receive messages**: The other micro:bit receives the message (and do something with that message).
 - **Know which messages are for us**: We need to set up a way to ensure that only the intended recipient can read the message.
 
 ---
@@ -69,6 +82,30 @@ while True:
 4. **Receive Messages** - Use `radio.receive()` to check for incoming messages. *If* a message is received, scroll it on the display using `display.scroll(incoming)`.
 
 </div>
+---
+layout: center
+zoom: 1.3
+---
+
+# Your Turn
+
+Use the code below to receive a message I'll be sending from my micro:bit. Once your micro:bit is set up and the message is scrolling, help a friend get it working too!
+
+```python
+from microbit import *
+
+import radio
+radio.on()  # Turn on the radio
+radio.config(group=1)  # Set the channel to 1
+
+while True:
+    # Check for incoming messages
+    incoming = radio.receive()  
+    
+    if incoming:
+         # Scroll the incoming message 
+        display.scroll(incoming) 
+``` 
 
 ---
 layout: two-cols-header
@@ -80,18 +117,19 @@ To send a message from one micro:bit to another, we can use the radio module bui
 
 ::left::
 
-```python
+```python {8-12|all}
 from microbit import *
 import radio
 
 radio.on()  # Turn on the radio
-radio.config(group=7)  # Set the channel to 7
+radio.config(group=1)  # Set the channel to 1
 
 while True:
     # Check if button A is pressed
     if button_a.is_pressed(): 
         radio.send("Hello!")  # Send a message 
-        display.show("S")  # Show "S" for sent
+        display.scroll("S")  # Show "S" for sent
+        sleep(1000) # Wait for a second before sending again
     
     # Check for incoming messages
     incoming = radio.receive()  
@@ -103,17 +141,16 @@ while True:
 
 ::right::
 
-## Step by Step
+<div style="font-size:0.9em" class="note">
 
-<div style="font-size:80%">
+## Add in Sending Messages
 
-- **Import Libraries**
-- **Turn on Radio**: Use `radio.on()` to turn on the radio module.
-- **Set Channel**: Use `radio.config(channel=7)` to set the radio channel to 7. 
-- **Button Press**: Check if button A is pressed using `button_a.is_pressed()`
 - **Send Message**: Use `radio.send("Hello!")` to send a message
-- **Display Sending**: Show "S" on the display to indicate that a message is being sent.
-- **Receive Messages**: Use `radio.receive()` to check for incoming messages. If a message is received, scroll it on the display using `display.scroll(incoming)`.
+- **Display Sending**: Show "S" (or something else) on the display to indicate that a message is being sent.
+- **Pair up with a friend** and choose a different group number (between 0 and 255) to send messages to each other to test your code.
+- Modify your code to allow different messages to be sent depending on the buttons or shaking the micro:bit.
+
+
 
 </div>
 
@@ -164,6 +201,19 @@ In groups of 2 or 3, decide on a secret code to use for your messages.
 - Original Message: "HELLO"
 - Substitution Cipher: Shift each letter by 1 (A → B, B → C, C → D, Z → A etc.)
 - Encrypted Message: "IFMMP"
+
+---
+layout: center
+---
+
+# Using a Dictionary
+
+At school, a dictionary is a book with words and their meanings. In programming, a dictionary is a data structure that stores keys (like the words in a dictionary) and values (like the definitions).
+
+
+
+
+
 
 ---
 layout: center

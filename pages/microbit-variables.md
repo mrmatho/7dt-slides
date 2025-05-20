@@ -31,7 +31,7 @@ zoom: 1.2
 
 # Variables
 
-<v-clicks depth="2">
+
 
 - Variables are used to **store data** in a program.
 - Their value can change - hence the name "variable".
@@ -41,14 +41,13 @@ zoom: 1.2
     - giving it a name 
     - and assigning it a value
 
-</v-clicks>
 
-<v-clicks>
+
 ```python
 my_variable = 10 
 
 ```
-</v-clicks>
+
 
 ---
 layout: center
@@ -342,5 +341,5 @@ Create one of the following programs using a variable for temperature:
 **Note:**
 
 The formula for converting Celsius to Fahrenheit is:
-$F = C * 9/5 + 32$
-</div>
+`temp_fahrenheit = temp * 9/5 + 32`
+</div>  
