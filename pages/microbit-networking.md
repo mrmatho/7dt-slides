@@ -156,7 +156,7 @@ while True:
 
 ---
 layout: two-cols
-zoom: 1.3
+zoom: 1.1
 ---
 
 # Why do you think we need to set a channel?
