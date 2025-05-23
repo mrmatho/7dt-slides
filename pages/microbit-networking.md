@@ -192,25 +192,38 @@ layout: center
 - This way, even if someone else intercepts the message, they won't be able to understand it without the key to decrypt it 
 
 ---
-layout: center
+layout: two-cols-header
+hideInToc: false
+zoom: 0.87
 ---
 
-# Challenge 1 - Create our own encryption method
+# Encryption Using a Caesar Cipher
 
-In groups of 2 or 3, decide on a secret code to use for your messages.
+::left::
 
-1. You can use a simple substitution cipher, where each letter is replaced by another letter or symbol.
-2. For example, you could replace "A" with "X", "B" with "Y", and so on.
-3. Or you could use a more complex code, like a number system where each letter corresponds to a number (A=1, B=2, C=3, etc.).
-4. Each group member create a test message:
-    - Encrypt the message using your secret code.
-    - Pass the encrypted message to another group member.
-5. Decrypt the message you were given by reversing the secret code.
+## What is a Caesar Cipher?
+A Caesar Cipher is a simple encryption technique where each letter in the message is shifted by a fixed number of places in the alphabet.
+For example, if we shift each letter by **3** places:
+- A becomes D
+- B becomes E
+- C becomes F
 
-## Example
-- Original Message: "HELLO"
-- Substitution Cipher: Shift each letter by 1 (A → B, B → C, C → D, Z → A etc.)
-- Encrypted Message: "IFMMP"
+If we shift by **10** places:
+- A becomes K
+- B becomes L
+- G becomes Q
+- Z becomes J
+
+::right::
+
+## Your Task
+
+1. Using the day of the month of your birthday (1-31) as the **key** or **shift value**, write out your personal code and encode the message `Ms Sandford is an incredible principal who loves maths`.
+2. Choose a message of your own (keep it school appropriate) and encode it using the same key.
+3. Once encoded, copy your encoded message on a piece of paper with your name and the key.
+4. Hand it to your teacher to get a swapped message to decode.
+5. Use the second table to decode the message you received. Check your  answer with the original sender of the message.
+
 
 ---
 layout: center
