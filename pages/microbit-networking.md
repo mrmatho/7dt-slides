@@ -233,6 +233,41 @@ layout: center
 
 At school, a dictionary is a book with words and their meanings. In programming, a dictionary is a data structure that stores keys (like the words in a dictionary) and values (like the definitions).
 
+```python
+# Example of a dictionary in Python
+my_favourites = {
+    "color": "red",
+    "number": 7,
+    "fruit": "apple"
+    "animal": "dog"
+}
+
+print(my_favourites["color"])  # Output: red
+```
+
+---
+layout: center
+---
+
+# Using a Dictionary for Encryption
+
+We can use a dictionary to map each letter to its encrypted version. 
+
+```python
+# Example of a dictionary for Caesar Cipher with a shift of 3
+
+caesar_cipher = {
+    "A": "D", "B": "E", "C": "F", "D": "G", "E": "H",
+    "F": "I", "G": "J", "H": "K", "I": "L", "J": "M",
+    "K": "N", "L": "O", "M": "P", "N": "Q", "O": "R",
+    "P": "S", "Q": "T", "R": "U", "S": "V", "T": "W",
+    "U": "X", "V": "Y", "W": "Z",  # Wrap around
+}
+```
+
+This is the equivalent of the table you created earlier, but in code form.
+
+---
 
 
 
