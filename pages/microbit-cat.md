@@ -94,3 +94,42 @@ flowchart LR
 
 ```
 ---
+layout: center
+zoom: 1.3
+---
+
+# Your Turn: Goldilocks 
+(Flowchart Example # 1)
+
+Goldilocks walks into the house, and keeps trying porridge until she finds one that is just right. Once she finds the best bowl of porridge, she will eat it all. If she doesn't find one that is just right, she will just go hungry. Draw this as a flowchart on the paper provided.
+
+```mermaid
+
+flowchart LR
+    A(Start) --> B[Process 1]
+    B --> C{Decision?}
+    C -- Yes --> D[Process 2]
+    C -- No --> E[Process 3]
+    D --> F(End)
+    E --> F
+
+```
+
+---
+layout: center
+zoom: 1.3
+---
+
+# Your Turn: Sending and Receiving Messages
+(Flowchart Example # 2)
+
+Create a flowchart to show what happens for sending and receiving messages between two micro:bits using the radio module.
+
+
+---
+layout: center
+---
+
+# Your Task
+
+1. Identify the problem you want to solve. You can talk with one another to help brainstorm ideas, but you need to choose your own problem. 
