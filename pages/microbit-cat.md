@@ -125,6 +125,11 @@ zoom: 1.3
 
 Create a flowchart to show what happens for sending and receiving messages between two micro:bits using the radio module.
 
+*Your micro:bit:*
+- Sets the channel
+- Listens for a message and scrolls it across the screen if it exists
+- Sends "Hi" if you pressed button A
+- Loops around again
 
 ---
 layout: center
@@ -132,4 +137,4 @@ layout: center
 
 # Your Task
 
-1. Identify the problem you want to solve. You can talk with one another to help brainstorm ideas, but you need to choose your own problem. 
+1. Identify the problem you want to solve. You can talk with one another to help brainstorm ideas, but you need to choose your own problem.
