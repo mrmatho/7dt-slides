@@ -47,11 +47,16 @@ strong code{
 }
 
 .note {
-    --uno: 'bg-yellow-300 dark:bg-yellow-600 text-black dark:text-white';
+    --uno: 'bg-yellow-200 dark:bg-yellow-800';
     font-size: 0.95rem;
-    line-height: 0.77rem;
-    padding:2px 20px;
+    line-height: 0.9rem;
+    padding:5px 20px;
+    --uno: 'font-serif';
     border-radius: 15px;
+}
+
+div.note {
+    margin: 10px;
 }
 
 em strong {
@@ -61,11 +66,18 @@ em strong {
     padding: 0px 3px;
 }
 
-.col-header{
-    max-height:100px !important;
+.col-left {
+    --uno: 'bg-purple-100 dark:bg-green-900';
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 0.95em;
 }
 
-.col-left, .col-right{
-    min-height:600px !important;
-    padding: 10px;
+.col-right {
+    --uno: 'bg-blue-100 dark:bg-blue-900';
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 0.95em;
 }
