@@ -67,7 +67,7 @@ em strong {
 }
 
 .col-left {
-    --uno: 'bg-purple-100 dark:bg-green-900';
+    --uno: 'bg-purple-100 dark:bg-purple-900';
     border-radius: 20px;
     padding: 20px;
     margin-right: 10px;

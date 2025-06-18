@@ -2,7 +2,7 @@
 title: Artificial Intelligence - Intro
 layout: cover
 class: text-center
-background: /img/microbit-bg.webp
+background: /img/ai-bg.png
 hideInToc: false
 transition: fade
 ---
@@ -10,6 +10,16 @@ transition: fade
 # Artificial Intelligence - Intro
 
 ## What is Artificial Intelligence?
+
+---
+layout: section
+---
+
+## Slides adapted from DayOfAIaustralia.com
+
+*Used under Creative Commons Attribution-NonCommercial 4.0 International License*
+
+<img src="/img/DOAI_HORIZONTAL.svg" alt="Day of AI Logo" width="300" />
 
 ---
 layout: li
@@ -122,6 +132,7 @@ For each of the 5 Big Ideas of AI, describe how they relate to the Aibo and Waym
 ---
 layout: cover
 zoom: 1.3
+background: /img/ai-bg.png
 ---
 
 # How do machines become "intelligent"?
@@ -138,4 +149,66 @@ zoom: 1.5
 flowchart LR
     A[Data] --> B[Algorithm]
     B --> C[Prediction]
+
 ```
+
+---
+layout: two-cols-header
+zoom: 1.1
+class: text-center
+---
+
+<h1 style="text-align:center;"> Data </h1>
+
+::left::
+
+```mermaid
+
+flowchart TD
+    A[**Data**] --> B[Algorithm]
+    B --> C[Prediction]
+
+```
+
+::right::
+
+### Data is information represented in digital form.
+
+Data can be:
+- **Numbers** (time, views, temperature)
+- **Text** (novels, articles, blogs)
+- **Audio** (speech, music, animal sounds)
+- **Images** (photos, drawings)
+- **Video recordings** (movies, TV, home videos)
+
+---
+layout: two-cols-header
+zoom: 1.1
+class: text-center
+---
+
+<h1 style="text-align:center;"> Datasets </h1>
+
+::left::
+
+```mermaid
+
+flowchart TD
+    A[**Data**] --> B[Algorithm]
+    B --> C[Prediction]
+
+```
+
+::right::
+
+Machines need data to learn from. But not just any data, it needs to be *curated* data - a dataset.
+
+Datasets are collections of data that are organized and structured around a specific topic or purpose.
+
+Examples of datasets:
+
+- **Image datasets**: Images used for training computer vision models
+- **Text datasets**: Text used for training natural language processing models
+- **Statistical datasets**: Numerical data used for analysis and modeling
+
+---
