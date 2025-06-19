@@ -215,7 +215,7 @@ Datasets often include labels or annotations that provide extra information abou
 
 ---
 layout: two-cols-header
-zoom: 1.2
+zoom: 1.1
 ---
 
 <h1 style="text-align:center;"> Algorithms </h1>
@@ -242,7 +242,7 @@ Our programs in python are algorithms, and we represented them using Python as w
 
 ---
 layout: two-cols-header
-zoom: 1.2
+zoom: 1.0
 ---
 
 <h1 style="text-align:center;"> Algorithms </h1>
@@ -263,10 +263,6 @@ flowchart TD
 A prediction is the output of a machine learning algorithm after it has processed the data.
 A prediction is a guess or estimation about something, based on the patterns and relationships learned from the data.
 
-Predictions can take many forms, such as:
-- **Classification**: Assigning a label to an input (e.g., identifying an image as a cat or dog)
-- **Regression**: Predicting a numerical value (e.g., forecasting the price of a stock)
-- **Clustering**: Grouping similar data points together (e.g., customer segmentation)
-- **Recommendation**: Suggesting items based on user preferences (e.g., movie recommendations)
+Predictions can take many forms, such as classifications, numerical values, or recommendations. When ChatGPT generates a response, it is making a prediction on the words you want to see next.
 
 ---
