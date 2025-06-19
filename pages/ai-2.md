@@ -92,6 +92,11 @@ If you think this is a Bloop, put your hand on your heart.
   <img src="/img/fleep-4.png" alt="Fleep or Bloop?" style="width:250px;"/>
 </div>
 
+<v-clicks>
+
+If you said Fleep, you are correct!
+
+</v-clicks>
 ---
 layout: center
 zoom: 1.2
@@ -104,10 +109,10 @@ zoom: 1.2
   - **Algorithm**: The algorithm that learns from the data
   - **Prediction**: The process of teaching the model using the data
 
-<v-clicks>
+<v-clicks depth="2">
 
 - The data was the *images of Fleeps and Bloops*
-  - AND the labels we gave them. If I hadn't told you which was which, you wouldn't have been able to learn!
+  - *AND the labels we gave them*. If I hadn't told you which was which, you wouldn't have been able to learn!
 - The algorithm was the process of us *identifying what was special or different about Fleeps and Bloops*
 - The prediction was us trying to *guess if the new image* was a Fleep or a Bloop
 
@@ -176,8 +181,8 @@ It allows us to train a model using our own data and see how it learns. The Teac
 3. Select the type of model you want to create. 
 4. Add classes for each category you want to recognise
 5. Click the Record button to **record examples** for each class
-6. Click the Train button to train the model (this will take a bit of time
-7. Once the model is trained, you can test it by providing new examples)
+6. Click the Train button to train the model (this will take a bit of time)
+7. Once the model is trained, you can test it by providing new examples
 
 ---
 layout: center
