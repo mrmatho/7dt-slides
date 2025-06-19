@@ -192,3 +192,12 @@ zoom: 1.4
 Write 3 things you learned from your experiment with the Teachable Machine.
 
 ---
+layout: center
+zoom: 1.2
+---
+
+# (If time) AI in action
+
+<Youtube id="GG3UNLUA1W4" width="600" height="400"/>
+
+---
