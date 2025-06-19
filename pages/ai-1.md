@@ -252,8 +252,8 @@ zoom: 1.0
 ```mermaid
 
 flowchart TD
-    A[Data] --> B[**Algorithm**]
-    B --> C[Prediction]
+    A[Data] --> B[*Algorithm*]
+    B --> C[**Prediction**]
 
 ```
 ::right::
