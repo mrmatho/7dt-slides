@@ -19,7 +19,7 @@ layout: section
 
 *Used under Creative Commons Attribution-NonCommercial 4.0 International License*
 
-<img src="/img/DOAI_HORIZONTAL.svg" alt="Day of AI Logo" width="300" />
+<img src="/img/DOAI_HORIZONTAL.svg" alt="Day of AI Logo" style="width:300px; margin:auto;"/>
 
 ---
 layout: li
@@ -210,5 +210,63 @@ Examples of datasets:
 - **Image datasets**: Images used for training computer vision models
 - **Text datasets**: Text used for training natural language processing models
 - **Statistical datasets**: Numerical data used for analysis and modeling
+
+Datasets often include labels or annotations that provide extra information about what they contain.
+
+---
+layout: two-cols-header
+zoom: 1.2
+---
+
+<h1 style="text-align:center;"> Algorithms </h1>
+
+::left::
+
+```mermaid
+
+flowchart TD
+    A[Data] --> B[**Algorithm**]
+    B --> C[Prediction]
+
+```
+
+::right::
+
+An algorithm is a procedure for solving a given problem or task.
+
+Algorithms act as an exact list of instructions that do something step by step to do something.
+
+There are lots of unique algorithms in the world of AI. 
+
+Our programs in python are algorithms, and we represented them using Python as well as using flowcharts. 
+
+---
+layout: two-cols-header
+zoom: 1.2
+---
+
+<h1 style="text-align:center;"> Algorithms </h1>
+
+::left::
+
+```mermaid
+
+flowchart TD
+    A[Data] --> B[**Algorithm**]
+    B --> C[Prediction]
+
+```
+::right::
+
+# Predictions
+
+A prediction is the output of a machine learning algorithm after it has processed the data.
+A prediction is a guess or estimation about something, based on the patterns and relationships learned from the data.
+
+Predictions can take many forms, such as:
+- **Classification**: Assigning a label to an input (e.g., identifying an image as a cat or dog)
+- **Regression**: Predicting a numerical value (e.g., forecasting the price of a stock)
+- **Clustering**: Grouping similar data points together (e.g., customer segmentation)
+- **Recommendation**: Suggesting items based on user preferences (e.g., movie recommendations)
 
 ---
