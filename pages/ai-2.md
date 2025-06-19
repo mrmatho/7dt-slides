@@ -13,9 +13,6 @@ transition: fade
 layout: center
 ---
 
-layout: section
----
-
 ## Slides adapted from DayOfAIaustralia.com
 
 *Used under Creative Commons Attribution-NonCommercial 4.0 International License*
