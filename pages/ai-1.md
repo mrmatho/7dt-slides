@@ -9,7 +9,9 @@ transition: fade
 
 # Artificial Intelligence - Intro
 
-## What is Artificial Intelligence?
+## Lesson 1
+
+### What is Artificial Intelligence?
 
 ---
 layout: section
@@ -183,7 +185,7 @@ Data can be:
 
 ---
 layout: two-cols-header
-zoom: 1.1
+zoom: 0.95
 class: text-center
 ---
 
@@ -252,7 +254,7 @@ zoom: 1.0
 ```mermaid
 
 flowchart TD
-    A[Data] --> B[*Algorithm*]
+    A[Data] --> B[Algorithm]
     B --> C[**Prediction**]
 
 ```
@@ -264,5 +266,3 @@ A prediction is the output of a machine learning algorithm after it has processe
 A prediction is a guess or estimation about something, based on the patterns and relationships learned from the data.
 
 Predictions can take many forms, such as classifications, numerical values, or recommendations. When ChatGPT generates a response, it is making a prediction on the words you want to see next.
-
----

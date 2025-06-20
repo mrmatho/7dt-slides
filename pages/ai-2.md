@@ -7,8 +7,8 @@ hideInToc: false
 transition: fade
 ---
 
-# AI- How do machines learn?
-
+# AI - How do machines learn?
+## Lesson 2
 ---
 layout: center
 ---
