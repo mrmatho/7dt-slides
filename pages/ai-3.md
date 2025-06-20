@@ -207,5 +207,3 @@ zoom: 1.2
 - This can lead to unfair or harmful content being generated, reinforcing existing stereotypes and discrimination.
 
 *Summarise why AI might be biased towards certain groups of people in your booklet.*
-
----
