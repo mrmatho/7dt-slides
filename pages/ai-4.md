@@ -144,10 +144,19 @@ layout: center
 zoom: 1.4
 ---
 
-# Identify Harm and Benefit
+# Today's Tasks
 
-(Talk in your groups first, before writing your answer)
+## Question 1
 
-Besides the harms and benefits we discussed in the newspaper example: identify an example of harm and benefit in using AI.
+Besides the harms and benefits we discussed in the newspaper example: *identify an example of harm and benefit in using AI.*
+
+## Question 2
+
+Arlo is a student who decides to use AI to write his essay for him in English. This results in him receiving the award for the best English student in his year level.
+
+*List 4 stakeholders affected by Arlo's decision to use AI to cheat.*
+
 
 ---
+
+a
