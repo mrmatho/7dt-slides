@@ -187,3 +187,9 @@ zoom: 1
 ---
 
 <Youtube id="lwQmAABncVo" width=600 height=400 />
+
+---
+layout: center
+zoom: 1.3
+---
+
