@@ -56,6 +56,7 @@ zoom: 1.3
 
 ---
 layout: center
+zoom: 1.4
 ---
 
 # Our model of ethics
@@ -126,6 +127,19 @@ What other benefits and harms can you think of in this scenario?
 layout: center
 ---
 
+# Perspective Taking
+
+When we have complex ethical situations, we can only fully explore the issue if we think about the **perspectives** of all the people involved.
+
+- What is important to each person?
+- How do they feel about the situation?
+- What impact does the situation have on them?
+
+---
+layout: center
+zoom: 1.3
+---
+
 # Stakeholders
 
 You might have noticed that the people who experienced harm were not the same as those who experienced benefit. Anyone affected by an action is called a **stakeholder**. 
@@ -158,5 +172,18 @@ Arlo is a student who decides to use AI to write his essay for him in English. T
 
 
 ---
+layout: center
+zoom: 1.4
+---
 
-a
+# Misinformation and AI
+
+- AI can generate text, images, and videos that look real but are not.
+- This can lead to the spread of misinformation, which is false or misleading information.
+
+---
+layout: center
+zoom: 1
+---
+
+<Youtube id="lwQmAABncVo" width=600 height=400 />
