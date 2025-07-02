@@ -88,7 +88,6 @@ hideInToc: true
 From what you have just heard - write down what you think a server is. 
 
 ---
-layout: quote
 transition: fade
 hideInToc: true
 ---
@@ -106,13 +105,14 @@ Some handy reminders for research:
 layout: two-cols-header
 transition: fade
 hideInToc: true
+zoom: 0.9
 ---
 
 # Server Types
 
 Today we are doing a research activity to discover information about the different types of servers.
 
-You will be working in <span v-mark>randomly selected</span> small groups to research a different type of server, using your laptop and the internet.
+You will be working in *randomly selected* small groups to research a different type of server, using your laptop and the internet.
 
 I will put you into groups and give you a type of server to research.
 
@@ -133,4 +133,4 @@ You need to investigate the following questions:
 3. Find some companies that would use this type of server.
 4. Anything more you can find out in the time we have.
 
-<span v-mark.highlight.purple>Each group will have a chance to present back on what they found out</span>
+**Each group will have a chance to present back on what they found out**
