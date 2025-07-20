@@ -46,6 +46,8 @@ Create a poster on the best topic you learned this semester
 
 You can use Canva, PowerPoint (just use 1 slide for your poster), or do it on paper.
 
+Groups of 2 or individuals (no exceptions)
+
 ::right::
 
 ## Prizes for:
@@ -53,7 +55,7 @@ You can use Canva, PowerPoint (just use 1 slide for your poster), or do it on pa
 - Most informative
 - Most creative
 - Best use of images
-- Best group poster
+- Best pair poster
 - Best individual poster
 
 Topics: Artificial Intelligence,
@@ -68,7 +70,7 @@ Topics: Artificial Intelligence,
 
 <div class="note">
 
-Note: Judging will start at 10:50AM
+Note: Judging will start at 9:50AM
 
 </div>
 
