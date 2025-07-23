@@ -67,16 +67,22 @@ mindmap
   root((FileTypes))
     Images
       .jpg
+      .png
     Videos
       .mp4
+      .gif
     Documents
       .pdf
+      .doc/.docx
     Audio
       .mp3
     Compression
       .zip
     Executables/Apps
       .exe
+      .bat
+      .rom
+      .mcpack
 ```
 
 ---
