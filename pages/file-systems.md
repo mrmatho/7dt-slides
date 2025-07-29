@@ -81,8 +81,7 @@ mindmap
     Executables/Apps
       .exe
       .bat
-      .rom
-      .mcpack
+      .app
 ```
 
 ---

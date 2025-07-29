@@ -122,7 +122,7 @@ I will put you into groups and give you a type of server to research.
 - File Server
 - Print Server
 - Mail Server
-- Database Server
+- Proxy Server
 - Game Server
 
 ::right::
