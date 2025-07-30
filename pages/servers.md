@@ -32,6 +32,13 @@ Match the components of a computer to their function.
 
 ::left::
 
+1. Stores data and programs permanently.
+2. Processes instructions and carries out calculations.
+3. Prepares images and graphics for display.
+4. Stores working data and machine code while the computer is running.
+
+::right::
+
 A. CPU
 
 B. RAM
@@ -39,12 +46,6 @@ B. RAM
 C. GPU
 
 D. SSD
-
-::right::
-1. Stores data and programs permanently.
-2. Processes instructions and carries out calculations.
-3. Prepares images and graphics for display.
-4. Stores working data and machine code while the computer is running.
 
 ---
 layout: section
@@ -118,12 +119,12 @@ I will put you into groups and give you a type of server to research.
 
 ::left::
 
-- Web Server
-- File Server
-- Print Server
-- Mail Server
-- Proxy Server
-- Game Server
+1. Web Server
+2. File Server
+3. Print Server
+4. Mail Server
+5. Proxy Server
+6. Game Server
 
 ::right::
 
