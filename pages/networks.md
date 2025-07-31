@@ -19,6 +19,7 @@ layout: center
 Which of the following activities would use a server?
 
 *Thumbs up for yes, thumbs down for no*
+<v-clicks depth="2">
 
 1. Opening a web page
 2. Sending an email
@@ -28,6 +29,8 @@ Which of the following activities would use a server?
 6. Sending a message in a group chat
 7. Downloading an app from an App Store
 8. Checking your heart rate on a smartwatch
+
+</v-clicks>
 
 ---
 layout: li
@@ -49,6 +52,8 @@ layout: center
 
 # What is a Network?
 
+<v-clicks>
+
 A network is a group of two or more computers that are connected together to share resources and information.
 
 - Your home internet connection is a small network.
@@ -58,6 +63,8 @@ These are both examples of Local Area Networks (LANs), because they are limited 
 
 - The Internet is a global network of networks.
 - The Internet is a Wide Area Network (WAN), because it covers a wide area.
+
+</v-clicks>
 
 ---
 layout: center
@@ -118,9 +125,13 @@ layout: center
 
 # Your Turn
 
-1. Complete the worksheet by connecting the terms to the corresponding images and their definitions.
+Complete the worksheet by connecting the terms to the corresponding images and their definitions.
     - You can work with a partner, but you must write your own answers.
 
-2. (If time) A small business wants to set up a network. They have 4 computers, 2 printers, and 1 internet connection. Three of the computers are in one room, and the other computer is in a different room (the manager's office). 
-    - Draw a diagram of how you would set up the network, including any switches or routers that you would use.
-    - Research the cost of the equipment you would need and calculate the total cost.
+**(In your book)**
+ A small business wants to set up a network. They have 4 computers, 2 printers, and 1 internet connection. Three of the computers are in one room, and the other computer is in a different room (the manager's office). 
+1. Describe to the owner of the business why they need a network. Give more than one reason.
+2. Draw a diagram of how you would set up the network, including any switches or routers that you would use
+3. (If you have time) Research the cost of the equipment you would need and calculate the total cost.
+
+*Questions are also available on the lesson plan*
