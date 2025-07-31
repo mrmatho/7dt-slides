@@ -9,6 +9,26 @@ hideInToc: false
 # Networks
 
 ## LANs, Routers, Switches and the Internet
+
+---
+layout: center
+---
+
+# Do Together
+
+Which of the following activities would use a server?
+
+*Thumbs up for yes, thumbs down for no*
+
+1. Opening a web page
+2. Sending an email
+3. Creating a Word document on your laptop
+4. Playing a single-player game on your console
+5. Mr Matheson marking the roll on Compass
+6. Sending a message in a group chat
+7. Downloading an app from an App Store
+8. Checking your heart rate on a smartwatch
+
 ---
 layout: li
 title: LI & SC
@@ -26,6 +46,7 @@ title: LI & SC
 ---
 layout: center
 ---
+
 # What is a Network?
 
 A network is a group of two or more computers that are connected together to share resources and information.
@@ -55,6 +76,7 @@ layout: center
 ---
 
 # Switches and Routers
+
 - A switch is a device that connects devices on a network and allows them to communicate with each other.
 - A router is a device that connects different networks together and allows them to communicate with each other.
 - A router is also used to connect a network to the Internet.
