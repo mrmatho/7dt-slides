@@ -130,7 +130,7 @@ Complete the worksheet by connecting the terms to the corresponding images and t
 
 **(In your book)**
  A small business wants to set up a network. They have 4 computers, 2 printers, and 1 internet connection. Three of the computers are in one room, and the other computer is in a different room (the manager's office). 
-1. Describe to the owner of the business why they need a network. Give more than one reason.
+1. Describe to the owner of the business why they need a network. *Give more than one reason*.
 2. Draw a diagram of how you would set up the network, including any switches or routers that you would use
 3. (If you have time) Research the cost of the equipment you would need and calculate the total cost.
 
