@@ -83,9 +83,9 @@ Remember:
 layout: center
 ---
 
-# Today's Story
+# Today's Story - Pocket Money
 
-## Pocket Money (Or how my daughter convinced me to give her more pocket money)
+## How my daughter convinced me to give her more pocket money
 
 My daughter Claire is starting high school this year too, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
 
