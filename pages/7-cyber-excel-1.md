@@ -57,7 +57,30 @@ layout: center
 
 ---
 layout: center
-class: text-center
+---
+
+# Practice Formulas
+
+**Use Excel to calculate the following:**
+
+1. $352789 + 12492$
+2. $1000 - 253$
+3. $100 \div 8$
+4. $31.34 \times 298387$
+5. The total of $31, 99, 2929, 1223, 2, 10$
+
+<div class="note">
+
+Remember:
+- Use the `=` sign to start a formula
+- Use `+`, `-`, `*`, `/` for addition, subtraction, multiplication, and division respectively
+- Use `=SUM(` to calculate the total of a range of cells
+
+</div>
+
+*Once you have completed these yourself, try help a friend*
+---
+layout: center
 ---
 
 # Today's Story
