@@ -12,7 +12,7 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@slidev/theme-shibainu": "^0.25.0",
-    "slidev-theme-neversink": "^0.3.6",
+    "slidev-theme-neversink": "^0.3.3",
     "vue": "^3.5.13"
   }
 }

@@ -89,7 +89,7 @@ layout: center
 
 My daughter Claire is starting high school this year too, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
 
-- buy any canteen food she wanted
+- buy her own canteen food when she wants it
 - buy her own clothes (other than school uniform)
 - pay for birthday and christmas presents for her friends and family
 
