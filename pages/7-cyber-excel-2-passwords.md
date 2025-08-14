@@ -36,7 +36,7 @@ zoom: 1.5
 # Importance of Strong Passwords
 
 - Simple passwords are easy to guess
-- Complex passwords are harder to crack - especially by <span v-mark.circle>brute force</span> attacks
+- Complex passwords are harder to crack - especially by brute force attacks
 - Protects personal information
 - Reduces identity theft risk
 
