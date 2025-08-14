@@ -134,3 +134,54 @@ zoom: 2
 - How do you know when it is safe to share private information?
 
 ---
+layout: center
+zoom: 1.2
+---
+
+# What are some ways we people might get your private information?
+
+<v-clicks depth="2">
+
+1. **Phishing**: People might send you fake emails or messages that look real, asking for your personal information.
+2. **Social Engineering**: Someone might try to trick you into giving them your information by pretending to be someone you trust.
+3. **Data Breaches**: Sometimes, companies that store your information can be hacked, and your data is stolen.
+4. **Public Wi-Fi**: Using public Wi-Fi can expose your information to hackers if you are not careful.
+5. **Your Own Actions**: Sometimes, we might share too much information on social media or other platforms without thinking about the consequences.
+
+</v-clicks>
+
+---
+layout: center
+zoom: 1.2
+---
+
+# How can you protect your private information?
+
+<v-clicks depth="2">
+
+1. **Use Strong Passwords**: Create complex passwords that are hard to guess and change them regularly. Don't use the same password for multiple accounts.
+2. **Enable Two-Factor Authentication**: This adds an extra layer of security by requiring a second form of verification.
+3. **Be Cautious with Personal Information**: Think before sharing personal details online, especially on social media.
+4. **Check Privacy Settings**: Regularly review and adjust the privacy settings on your social media accounts and other online services. If apps need access to location or contacts, consider if it is necessary.
+
+</v-clicks>
+
+---
+layout: center
+zoom: 1.1
+---
+
+# Quick Questions - Privacy
+
+1. Which of the following would be considered private information?
+
+   *A.* Your home address
+   *B.* Your favorite color
+   *C.* Your bank account number
+   *D.* The name of your pet
+2. How do you know if a website is safe to enter your personal information? *Describe two indicators* that you should trust a website.
+3. *True or False:* "Phishing" is when someone tries to trick you into giving them your personal information by pretending to be a trustworthy source.
+4. *True or False:* "Two-factor authentication" means you only need a password to access your accounts.
+5. *True or False:* The best way to protect your private information is to get one really strong password and use it for all your important accounts.
+
+---
