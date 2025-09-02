@@ -27,13 +27,11 @@ Attackers use fake or tricky URLs to steal information.
 - Malicious links can install malware
 
 ---
-layout: two-cols-header
+layout: center
 zoom: 0.9
 ---
 
 # Parts of a Web Address
-
-::left::
 
 ## Web address structure
 A typical web address looks like this:  
@@ -45,15 +43,19 @@ A typical web address looks like this:
 
 We don't really need to worry too much about the Path part. More important is understanding the *Protocol* and *Domain Name*.
 
-### HTTPS?
+### Protocol: HTTPS?
 
 - HTTPS means "HyperText Transfer Protocol Secure"
 - It encrypts data between your browser and the website (sends it in a secret code)
 - This helps protect your information from *hackers*
+- It is safer than HTTP.
 
-::right::
+---
+layout: center
+zoom: 1.1
+---
 
-### Domain Name?
+# Domain Name?
 - The *domain name* is the address of the server where the website is hosted.
 - Each domain name is unique - owned by a person or organization.
 - The end of a domain name is called the top-level domain (TLD), like `.com`, `.org`, or `.edu`.
@@ -79,7 +81,7 @@ zoom: 1.1
 
 ---
 layout: two-cols-header
-zoom: 1.2
+zoom: 1
 ---
 
 # Common Scammer TLDs
