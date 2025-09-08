@@ -225,6 +225,21 @@ hideInToc: false
 
 ---
 layout: center
+zoom: 1.1
+---
+
+# A quick game: IF
+
+- I will say "IF" and then give a **condition**
+- I will then say "THEN" and a thing you should do if the condition is True for you
+- I will then say "ELSE" and a different thing you should do if the condition is False for you
+
+- For example:
+    - IF you have a dog THEN stand up ELSE sit down
+    - IF your birth month has a y in it THEN clap your hands ELSE stamp your feet
+
+---
+layout: center
 zoom: 1.4
 ---
 
@@ -255,6 +270,8 @@ If I wanted to check whether `A1` contains the word "Yes", I would write the for
 - If the condition is true (A1 does contain "Yes"), the cell will show `1`
 - If the condition is false (A1 does not contain "Yes"), the cell will show `0`
 
+*You will use this, but with the correct answers in place of "Yes" and the cell reference in place of `A1`.*
+
 ---
 zoom: 1.1
 ---
@@ -264,6 +281,7 @@ zoom: 1.1
 - `=SUM(range)` - adds up all the numbers in a range of cells
 - `=AVERAGE(range)` - calculates the average of a range of cells
 - `=COUNTIF(range, criteria)` - counts the number of cells in a range that meet a certain criteria
+    - This is useful for how many people selected a certain response to behaviour questions
 - `=MAX(range)` - finds the highest number in a range of cells
 - `=MIN(range)` - finds the lowest number in a range of cells
 
