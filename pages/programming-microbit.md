@@ -22,6 +22,7 @@ layout: center
 
 ---
 layout: two-cols-header
+zoom: 0.9
 ---
 
 # Micro:bit features
@@ -66,7 +67,7 @@ print("Hello, World!")
 
 - This code prints "Hello, World!" to the terminal or console.
 - The `print` function is used to display text or numbers.
-- The text inside the parentheses is called a string, and it must be enclosed in quotation marks.
+- In programming, we store text data in a **string**, shown by putting it in quotation marks.
 - When we are coding for Micro:bit, this will only display when the Micro:bit is connected to our computer.
 
 <v-click>
@@ -78,6 +79,7 @@ display.scroll("Hello, World!")
 - This is the *same code*, only **using the Micro:bit display** to scroll the message.
 
 </v-click>
+
 ---
 layout: image-right
 image: /img/simulator.png
