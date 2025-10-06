@@ -212,3 +212,81 @@ layout: center
 - Copy the Consent Statement from the lesson plan into the description
 - Start adding questions to your form
 
+---
+layout: center
+hideInToc: false
+---
+
+# Analysing your results
+
+- Once you have received at least 20 responses to your survey, you will need to analyse the results using Excel
+- You will create at least two different graphs to show your findings
+- You must use formulas to calculate the results
+
+---
+layout: center
+zoom: 1.1
+---
+
+# A quick game: IF
+
+- I will say "IF" and then give a **condition**
+- I will then say "THEN" and a thing you should do if the condition is True for you
+- I will then say "ELSE" and a different thing you should do if the condition is False for you
+
+- For example:
+    - IF you have a dog THEN stand up ELSE sit down
+    - IF your birth month has a y in it THEN clap your hands ELSE stamp your feet
+
+---
+layout: center
+zoom: 1.4
+---
+
+# Formulas - The IF function
+
+- Because we want to work out which answers are correct, we will use the IF function in Excel
+- The IF function checks if a **condition** is true or false, and then does something based on that
+    - A condition is where you compare two things, e.g. A1 = "Yes"
+
+---
+layout: center
+zoom: 1.3
+---
+
+# Using the IF function
+
+- The IF function has three parts:
+    - The condition you want to check
+    - What to do if the condition is true
+    - What to do if the condition is false
+If I wanted to check whether `A1` contains the word "Yes", I would write the formula like this:
+
+```
+=IF(A1="Yes", 1, 0)
+```
+
+- The condition is `A1="Yes"`
+- If the condition is true (A1 does contain "Yes"), the cell will show `1`
+- If the condition is false (A1 does not contain "Yes"), the cell will show `0`
+
+*You will use this, but with the correct answers in place of "Yes" and the cell reference in place of `A1`.*
+
+---
+zoom: 1.1
+---
+
+# Other formulas you might use:
+
+- `=SUM(range)` - adds up all the numbers in a range of cells
+- `=AVERAGE(range)` - calculates the average of a range of cells
+- `=COUNTIF(range, criteria)` - counts the number of cells in a range that meet a certain criteria
+    - This is useful for how many people selected a certain response to behaviour questions
+- `=MAX(range)` - finds the highest number in a range of cells
+- `=MIN(range)` - finds the lowest number in a range of cells
+
+## Pivot Tables
+- You could also use a Pivot Table to help analyse your data
+- Using a Pivot Table in your CAT is an "Above Level" skill
+
+---

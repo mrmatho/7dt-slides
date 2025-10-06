@@ -83,6 +83,11 @@ hide: false
 ---
 
 ---
+src: ./pages/7-cyber-domains-extra.md
+hide: false
+---
+
+---
 src: ./pages/7-cyber-excel-5-cat.md
 hide: false
 ---
