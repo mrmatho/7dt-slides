@@ -236,13 +236,47 @@ while True:
 1. There are a number of other images you can use, including: *`Image.SAD`, `Image.HAPPY`, `Image.SILLY`, `Image.ANGRY`, `Image.CONFUSED`, `Image.YES`, `Image.NO`* - pick one you like and try it out!
 2. Add a second image to your code and use the `sleep()` function to pause between them. 
 
+---
+layout: two-cols-header
+zoom: 0.9
+---
 
-- **Extension**: You can also create your own images using the `Image` class. For example, you can create a windmill image like this:
-```python   
-display.show(Image("00900:99099:00900:00500:09990"))
+# Creating your own images
+
+You can use the built-in images, but it is more fun to create your own!
+
+::left::
+
+- To create your own image - you need to use a 5x5 grid of numbers to represent the brightness of each LED. 
+- 0 is completely off, 9 is completely on
+- To create a fully lit screen, you would use:
+
+```python
+display.show(Image("99999:99999:99999:99999:99999"))
+```
+- To just light up the very middle LED, you would use:
+```python
+display.show(Image("00000:00000:00900:00000:00000"))
 ```
 
-*0 is completely off, 9 is completely on and the other numbers represent the brightness in between. The colons separate the rows of the image.*
+The smiley face would be:
+```python
+display.show(Image("09090:00000:00000:90009:09990"))
+```
+(The first row has the eyes in the 2nd and 4th positions. Nothing in the next two rows. The 4th row has the corners lit up, and the last row has a smile)
+
+::right::
+
+# Your Turn
+
+Design your own image on paper first, then write your code to show it in the simulator/Micro:bit.
+
+- Think about what needs to be lit up (9) and what needs to be off (0)
+- You can use in-between numbers (1-8) to create different brightness levels
+- Test it in the simulator first, then if a Micro:bit is available, run it there.
+
+- **Extension**: Use multiple images (using `sleep(100)` in between) to create a simple animation.
+
 
 ---
 layout: center
