@@ -251,7 +251,7 @@ zoom: 1.4
 
 ---
 layout: center
-zoom: 1.3
+zoom: 1.2
 ---
 
 # Using the IF function
@@ -288,5 +288,3 @@ zoom: 1.1
 ## Pivot Tables
 - You could also use a Pivot Table to help analyse your data
 - Using a Pivot Table in your CAT is an "Above Level" skill
-
----

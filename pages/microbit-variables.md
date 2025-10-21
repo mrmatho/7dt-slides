@@ -33,14 +33,13 @@ zoom: 1.2
 
 
 
-- Variables are used to **store data** in a program.
+- *Variables* are used to **store data** in a program.
 - Their value can change - hence the name "variable".
-- A variable is like a container that holds information.
+- A variable is *like a container that holds information*.
 - We use variables to keep track of values that we want to use later.
 - In Python, we create a variable by:
     - giving it a name 
     - and assigning it a value
-
 
 
 ```python
@@ -83,7 +82,6 @@ while True:
     if button_a.was_pressed():
         count = count + 1
     display.show(count)
-    sleep(100)
 ```
 
 What do you think this program does?
@@ -111,7 +109,6 @@ while True:
     if button_a.was_pressed():
         count = count + 1
     display.show(count)
-    sleep(100)
 ``` 
 ---
 layout: two-cols-header

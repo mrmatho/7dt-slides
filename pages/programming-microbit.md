@@ -424,10 +424,11 @@ while True:
 
 
 ---
-layout: center
+layout: two-cols
+zoom: 1.2
 ---
 
-# Your Turn: Using conditions to respond to input
+## Your Turn: Using conditions to respond to input
 
 - Use the code below to create a program that shows a different image when button A is pressed.
 
@@ -440,8 +441,7 @@ while True:
     else:
         display.show(Image.SAD)
 ```
-
-- *Feel free to use a different image for each*
+::right::
 - **Test it in the simulator first**, then if a Micro:bit is available, run it there.
 - **Extension**: Add a second button (B) to show a different image when pressed. You can use the `button_b.is_pressed()` function to check if button B is pressed. You might need to use `elif` to check for the second button. Then add a third image that shows when neither button is pressed. You can use the `else` statement to do this.
 
@@ -551,4 +551,3 @@ zoom: 1.2
 <img v-after src="/img/mb-error.png" alt="Micro:bit error" width="300" style="display:block; margin:auto"/>
 
 ---
-
