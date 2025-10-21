@@ -81,7 +81,7 @@ count = 0
 while True:
     if button_a.was_pressed():
         count = count + 1
-    display.show(count)
+    display.scroll(count)
 ```
 
 What do you think this program does?
