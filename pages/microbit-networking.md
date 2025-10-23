@@ -47,6 +47,7 @@ For our micro:bits to communicate, we need to:
 
 ---
 layout: two-cols-header
+zoom: 0.9
 ---
 
 # Receiving a Message
@@ -109,6 +110,7 @@ while True:
 
 ---
 layout: two-cols-header
+zoom: 0.9
 ---
 
 # Sending a Message
