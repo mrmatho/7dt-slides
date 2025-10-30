@@ -31,9 +31,11 @@ layout: center
 
 Your problem needs to have: 
 
-- A clear goal
-- Input and output
-- Use of multiple micro:bit features (eg. sensors, buttons, LEDs, radio, etc.)
+- **A clear goal**
+- **Input and output**
+    - *Input*: Information from the world that goes *into* the micro:bit (eg. button presses, sensor readings, radio messages, etc.)
+    - *Output*: Information that goes *out* from the micro:bit to the world (eg. LED display, sounds, radio messages, etc.)
+- **Use of multiple micro:bit features** (eg. sensors, buttons, accelerometer, LEDs, radio, etc.)
 
 You can choose a problem from the provided list or choose your own. The more original ideas will be more interesting to work on!
 
@@ -137,4 +139,13 @@ layout: center
 
 # Your Task
 
-1. Identify the problem you want to solve. You can talk with one another to help brainstorm ideas, but you need to choose your own problem.
+1. Identify the problem you want to solve. 
+2. Complete section 1: **You Do: Selecting a problem**
+    - Describe the problem you are solving
+    - List the inputs and outputs
+    - Identify whether your problem will include radio communication
+3. Create a flowchart for your program. 
+    - Write a draft of your flowchart on paper or in your book first
+    - Put the final version into the space provided in section 2: **Designing the solution**
+
+---
