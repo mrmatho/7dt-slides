@@ -147,5 +147,3 @@ layout: center
 3. Create a flowchart for your program. 
     - Write a draft of your flowchart on paper or in your book first
     - Put the final version into the space provided in section 2: **Designing the solution**
-
----
