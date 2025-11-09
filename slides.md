@@ -113,6 +113,11 @@ hide: false
 ---
 
 ---
+src: ./pages/microbit-testing.md
+hide: false
+---
+
+---
 src: ./pages/ai-1.md
 hide: false
 ---
