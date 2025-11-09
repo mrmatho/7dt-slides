@@ -47,7 +47,7 @@ zoom: 1
 
 # Test Table Example
 <br>
-Felicity has created a micro:bit program to play rock-paper-scissors. The player uses Button A to select rock (R), paper, or scissors, and then shakes the micro:bit to see what the computer chooses. If the player wins, the micro:bit should show a happy face; if the computer wins, it should show a sad face; and if it's a tie, it should show a neutral face.
+Felicity has created a micro:bit program to play rock-paper-scissors. The player uses Button A to select rock (R), paper (P), or scissors(S), and then shakes the micro:bit to see what the computer chooses. If the player wins, the micro:bit should show a happy face; if the computer wins, it should show a sad face; and if it's a tie, it should show a neutral face.
 
 <v-clicks depth="1">
 
