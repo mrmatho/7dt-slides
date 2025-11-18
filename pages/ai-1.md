@@ -247,7 +247,7 @@ layout: two-cols-header
 zoom: 1.0
 ---
 
-<h1 style="text-align:center;"> Algorithms </h1>
+<h1 style="text-align:center;"> Prediction </h1>
 
 ::left::
 
