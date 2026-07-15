@@ -2,6 +2,7 @@
 
 ## Project Overview
 - This repo is a [Slidev](https://github.com/slidevjs/slidev) presentation site for teaching topics (e.g., Micro:bit, Python, Cybersecurity).
+- The slides are authored with the Slidev framework from [sli.dev](https://sli.dev), so Copilot should treat this as a markdown-and-Vue presentation project rather than a standard docs site.
 - Slides are authored in markdown (`slides.md`, `pages/*.md`) and enhanced with Vue components (`components/`, `layouts/`).
 - Static assets (images, etc.) are in `public/img/`.
 - The site is deployed via GitHub Pages using a custom workflow (`.github/workflows/deploy.yml`).

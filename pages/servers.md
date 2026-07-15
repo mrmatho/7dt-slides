@@ -72,11 +72,19 @@ hideInToc: true
 layout: center
 transition: fade
 hideInToc: true
+zoom: 0.9
 ---
 
 # Server Video
 
-<Youtube id="V9K1l3OL-Iw" width="600" height="400"/>
+<SlidevVideo controls v-click autoreset="slide">
+  <source src="/video/The_Invisible_Computers.mp4" type="video/mp4" />
+  
+  <p>
+    Your browser does not support videos. You may download it
+    <a href="/video/The_Invisible_Computers.mp4">here</a>.
+  </p>
+</SlidevVideo>
 
 ---
 layout: center
