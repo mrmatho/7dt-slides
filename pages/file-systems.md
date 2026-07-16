@@ -99,3 +99,22 @@ Answer the following questions in your book (or on paper). Write both the questi
 4. Lionel has a folder on his computer called "School". Inside that folder he has all his schoolwork, with file names like "schoolwork.docx" and "questions.docx". How could Lionel improve his file management practices?
 
 *These questions are also available on the lesson plan*
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Microsoft Word: Introduce Yourself
+
+**Create a Word document with:**
+
+- Your name as a heading
+- 3 interesting facts about you
+- 2 things that help you learn
+- insert pictures of things you are interested in
+
+If you complete that early:
+
+- add a table with your favourite movies, books and games
+- add a footer with your name and the date
