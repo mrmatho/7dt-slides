@@ -19,10 +19,12 @@ hideInToc: false
 ---
 
 ::li::
+
 - To be able to use a spreadsheet to perform mathematical calculations
 - To be able to use the `SUM` function to calculate totals
 
 ::sc::
+
 - Create a spreadsheet to convince your parents to give you more pocket money
 
 ---
@@ -87,13 +89,13 @@ layout: center
 
 ## How my daughter convinced me to give her more pocket money
 
-My daughter Claire is starting high school this year too, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
+My daughter Claire is started high school last year, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
 
 - buy her own canteen food when she wants it
 - buy her own clothes (other than school uniform)
 - pay for birthday and christmas presents for her friends and family
 
-We decided that we would give her $10 a week, and she could spend it however she wanted. We also told her that if she wanted to buy something that cost more than $10, she would have to save up for it. She decided that wasn't enough, and she wanted to convince us to give her more.
+We decided that we would give her $10 a week, and she could spend it however she wanted. We also told her that if she wanted to buy something that cost more than $10, she would have to save up for it. **She decided that wasn't enough, and she wanted to convince us to give her more.**
 
 ---
 layout: center
@@ -107,8 +109,8 @@ layout: center
 
 |Item|Cost|Number per year|Total Cost|
 |---|---|---|---|
-|Shoes|$100|1|$100|
-|T-Shirts|$25|5|$125|
+|Shoes|$100|1|$100 (100 x 1)|
+|T-Shirts|$25|5|$125 (25 x 5)|
 |---|---|---|---|
 | | | **Total**| **$1500** |
 | | | **Weekly**| **$30** |

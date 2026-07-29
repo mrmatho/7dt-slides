@@ -12,10 +12,12 @@ layout: li
 title: LI & SC
 ---
 ::li::
+
 - To be able to identify what a server is and what it does.
 - To be able to identify different types of servers and their uses.
 
 ::sc::
+
 - Describe what a server is and what it does.
 - Present their groups findings on a particular type of server.
 
@@ -28,7 +30,7 @@ zoom: 1.3
 
 # Do Now
 
-Match the components of a computer to their function. 
+Match the components of a computer to their function.
 
 ::left::
 
@@ -67,7 +69,9 @@ hideInToc: true
 - They could provide data, services, or resources (like printers) to other computers.
 - Servers are often more powerful than regular computers and have more storage.
 - Large tech companies like Google, Facebook, and Amazon have thousands of servers, found in large data centres around the world.
+
 <img src="/img/serverroom.jpg" alt="Server" style="width: 300px; margin: auto"/>
+
 ---
 layout: center
 transition: fade
