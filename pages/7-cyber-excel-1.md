@@ -58,18 +58,27 @@ layout: center
 - Simple calculation formulas
 
 ---
-layout: center
+layout: two-cols-header
 ---
 
 # Practice Formulas
 
-**Use Excel to calculate the following:**
+::left::
+
+**Use Excel to calculate the following with your teacher**
 
 1. $352789 + 12492$
 2. $1000 - 253$
 3. $100 \div 8$
 4. $31.34 \times 298387$
 5. The total of $31, 99, 2929, 1223, 2, 10$
+
+::right::
+**Then try these on your own:**
+
+1. $17 + 1984$
+2. $2017 \times 2019$
+3. Total of $1, 1, 2, 3, 5, 8, 13$
 
 <div class="note">
 
@@ -80,7 +89,6 @@ Remember:
 
 </div>
 
-*Once you have completed these yourself, try help a friend*
 ---
 layout: center
 ---
@@ -89,13 +97,15 @@ layout: center
 
 ## How my daughter convinced me to give her more pocket money
 
-My daughter Claire is started high school last year, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
+My daughter Claire started high school last year, and we decided that this was a good time for her to start paying for more things. Specifically, we wanted her to:
 
 - buy her own canteen food when she wants it
 - buy her own clothes (other than school uniform)
 - pay for birthday and christmas presents for her friends and family
 
-We decided that we would give her $10 a week, and she could spend it however she wanted. We also told her that if she wanted to buy something that cost more than $10, she would have to save up for it. **She decided that wasn't enough, and she wanted to convince us to give her more.**
+We decided that we would give her $10 a week, and she could spend it however she wanted. We also told her that if she wanted to buy something that cost more than $10, she would have to save up for it.
+
+**She decided that wasn't enough, and she wanted to convince us to give her more.**
 
 ---
 layout: center
@@ -112,8 +122,8 @@ layout: center
 |Shoes|$100|1|$100 (100 x 1)|
 |T-Shirts|$25|5|$125 (25 x 5)|
 |---|---|---|---|
-| | | **Total**| **$1500** |
-| | | **Weekly**| **$30** |
+|||**Total**|**$1500**|
+|||**Weekly**|**$30**|
 
 **Your task is to create a similar spreadsheet. Choose the items you think you would need to buy in a year and estimate the prices. Let's get cashed up!**
 
