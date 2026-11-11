@@ -1,4 +1,5 @@
 ---
+routeAlias: 7-cyber-excel-3-privacy
 layout: cover
 transition: slide-up
 zoom: 1.3

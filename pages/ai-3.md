@@ -1,4 +1,5 @@
 ---
+routeAlias: ai-3
 title: AI - How do machines create things?
 layout: cover
 class: text-center

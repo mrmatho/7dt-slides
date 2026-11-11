@@ -1,4 +1,5 @@
 ---
+routeAlias: microbit-cat
 title: Micro:bit CAT
 layout: cover
 class: text-center

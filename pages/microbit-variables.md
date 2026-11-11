@@ -1,4 +1,5 @@
 ---
+routeAlias: microbit-variables
 title: Python Variables
 layout: cover
 class: text-center

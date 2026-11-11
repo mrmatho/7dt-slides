@@ -1,4 +1,5 @@
 ---
+routeAlias: 7-cyber-excel-2-passwords
 title: Cybersafety - Passwords and 2FA
 layout: cover
 class: text-center

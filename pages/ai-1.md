@@ -1,4 +1,5 @@
 ---
+routeAlias: ai-1
 title: Artificial Intelligence - Intro
 layout: cover
 class: text-center

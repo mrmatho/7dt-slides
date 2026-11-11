@@ -1,4 +1,5 @@
 ---
+routeAlias: learner-agency
 layout: cover
 background: /img/class.jpg
 transition: fade

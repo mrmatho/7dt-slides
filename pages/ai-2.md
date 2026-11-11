@@ -1,4 +1,5 @@
 ---
+routeAlias: ai-2
 title: AI - How do machines learn?
 layout: cover
 class: text-center
