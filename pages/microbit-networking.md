@@ -1,4 +1,5 @@
 ---
+routeAlias: microbit-networking
 title: Micro:bit Networking
 description: Learn how to connect multiple micro:bits together using radio communication.
 layout: cover

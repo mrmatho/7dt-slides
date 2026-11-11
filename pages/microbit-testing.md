@@ -1,4 +1,5 @@
 ---
+routeAlias: microbit-testing
 title: Testing Your Micro:bit Project
 layout: cover
 class: text-center

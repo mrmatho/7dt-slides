@@ -1,4 +1,5 @@
 ---
+routeAlias: heathos
 transition: fade
 layout: statement
 hideInToc: false

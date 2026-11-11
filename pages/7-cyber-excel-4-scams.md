@@ -1,4 +1,5 @@
 ---
+routeAlias: 7-cyber-excel-4-scams
 title: Cybersafety - Scams and Viruses
 layout: cover
 class: text-center

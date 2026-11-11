@@ -1,4 +1,5 @@
 ---
+routeAlias: components
 layout: cover
 transition: fade
 background: https://cover.sli.dev

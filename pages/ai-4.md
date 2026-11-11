@@ -1,4 +1,5 @@
 ---
+routeAlias: ai-4
 title: AI - Ethics
 layout: cover
 class: text-center

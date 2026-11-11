@@ -1,4 +1,5 @@
 ---
+routeAlias: programming-microbit
 title: Programming with Micro:bit
 layout: cover
 class: text-center

@@ -1,4 +1,5 @@
 ---
+routeAlias: 7-cyber-domains-extra
 layout: center
 transition: slide-up
 zoom: 1.3
