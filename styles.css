@@ -1,4 +1,9 @@
 
+code,
+pre {
+    font-variant-ligatures: none;
+}
+
 
 table td {
     text-align: left;
